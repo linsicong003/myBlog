@@ -9,6 +9,7 @@ tags:
   - vuepress
 categories:
   - documentation
+display: home
 --- 
 
 > Build your blog through multiple folders
