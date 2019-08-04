@@ -5,11 +5,11 @@ module.exports = {
   dest: 'dist/',
   theme: 'ououe',
   head: [
-    ['link', { rel: 'icon', href: `/public/icon.ico` }]
+    ['link', { rel: 'icon', href: 'icon.ico' }]
   ],
   themeConfig: {
     defaultTheme: 'light',
-    cover: '/cover2.jpg',
+    cover: '/cover.jpg',
     logo: '/logo.png',
     search: true,
     useVssue: true,
