@@ -75,8 +75,7 @@ module.exports = {
     resolve: {
       alias: {
         '@alias': 'path/to/some/dir',
-        '@img': 'public/image',
-        '@public': 'public'
+        '@img': 'public/image'
       }
     }
   }

@@ -1,6 +1,6 @@
 ---
 title: TypeScript 介绍
-# display: home
+display: none
 image: /image/background/1.jpg
 date: 2019-08-03
 tags: 

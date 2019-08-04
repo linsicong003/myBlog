@@ -1,7 +1,7 @@
 ---
 title: Welcome my Blog！
-# display: home
 image: /image/background/3.jpg
+# image: https://picsum.photos/1280/720
 date: 2019-08-03
 tags: 
   - introduce
