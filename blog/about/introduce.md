@@ -7,7 +7,7 @@ tags:
   - introduce
 categories:
   - 博客介绍
-display: home
+# display: home
 vssue: true
 --- 
 
