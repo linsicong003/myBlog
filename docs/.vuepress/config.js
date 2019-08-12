@@ -1,6 +1,14 @@
+const path = require('path')
+
 module.exports = {
     title: 'Clancy小屋',
     description: '随你肆意颤抖',
+    base: '/',
+    dest: 'dist/',
+    head: [
+        ['link', { rel: 'icon', href: 'icon.ico' }],
+        ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
+    ],
     themeConfig: {
         author: 'Clancy Lin',
         type: 'blog',
@@ -27,10 +35,6 @@ module.exports = {
         ],
         sidebar: [
             '/'
-        ],
-        head: [
-            ['link', { rel: 'icon', href: 'icon.ico' }],
-            ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
         ],
         footer: [
             { text: 'Github', type: "image/x-icon", link: 'https://github.com/linsicong003' }
