@@ -43,6 +43,9 @@ module.exports = {
             topImg: 'cover.jpg'
         }
     },
+    markdown: {
+        lineNumbers: true
+    },
     configureWebpack: {
         resolve: {
             alias: {
