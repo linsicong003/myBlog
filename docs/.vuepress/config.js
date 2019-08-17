@@ -55,7 +55,7 @@ module.exports = {
         }
     },
     plugins: [
-        'reading-progress',
+        ['reading-progress'],
         ['@vssue/vuepress-plugin-vssue', {
             // 设置 `platform` 而不是 `api`
             platform: 'github',
@@ -65,26 +65,6 @@ module.exports = {
             repo: 'https://github.com/linsicong003/myBlog',
             clientId: 'f91ff9a1205ad9ac7c60',
             clientSecret: 'c4fd8f99a68ae9742e96dd8824e48e6cc9a36018',
-        }],
-        // vue 组件
-        ['container', {
-            type: 'right',
-            defaultTitle: ''
-        }],
-        ['container', {
-            type: 'tip',
-            before: info => `<div class="tip"><p class="title">${info}</p>`,
-            after: '</div>'
-        }],
-        ['container', {
-            type: 'warning',
-            before: info => `<div class="warning"><p class="title">${info}</p>`,
-            after: '</div>'
-        }],
-        ['container', {
-            type: 'danger',
-            before: info => `<div class="danger"><p class="title">${info}</p>`,
-            after: '</div>'
         }],
     ]
 }

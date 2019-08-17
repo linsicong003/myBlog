@@ -11,6 +11,8 @@
     "vuepress": "^1.0.3"
   },
   "dependencies": {
+    "@vssue/api-github-v3": "^1.0.0",
+    "@vssue/vuepress-plugin-vssue": "^1.0.2",
     "vuepress-plugin-reading-progress": "^1.0.7"
   }
 }
