@@ -1,5 +1,5 @@
 <template>
-  <ul class="sidebar-links" v-if="items.length">
+  <ul class="sidebar-links" v-if="items.length" @click="handleClick">
     <li v-for="(item, i) in items" :key="i">
       <SidebarGroup
         v-if="item.type === 'group'"
@@ -47,6 +47,10 @@ export default {
   },
 
   methods: {
+    // 处理导航点击
+    handleClick() {
+      window.location = window.location;
+    },
     refreshIndex() {
       const index = resolveOpenGroupIndex(this.$route, this.items);
       if (index > -1) {

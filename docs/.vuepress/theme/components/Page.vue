@@ -230,8 +230,11 @@ function flatten(items, res) {
     padding: 0rem 2.5rem;
     background: #fff;
     padding: 1rem 2.5rem;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+  }
+
+  .comment-container {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
   }
 
   .page-edit {
@@ -239,8 +242,6 @@ function flatten(items, res) {
     padding-top: 1rem;
     padding-bottom: 1rem;
     overflow: auto;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
     font-size: 1rem;
 
     .edit-link {

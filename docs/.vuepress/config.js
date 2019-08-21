@@ -56,6 +56,14 @@ module.exports = {
     },
     plugins: [
         ['reading-progress'],
+        ['seo'],
+        ['@vuepress/active-header-links'],
+        [
+            '@vuepress/google-analytics',
+            {
+                'ga': 'UA-146142841-1' // UA-00000000-0
+            }
+        ],
         ['@vssue/vuepress-plugin-vssue', {
             // 设置 `platform` 而不是 `api`
             platform: 'github',

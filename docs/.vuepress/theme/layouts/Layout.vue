@@ -32,8 +32,7 @@ export default {
         this.$localePath
       );
     }
-  },
-
+  }
 };
 </script>
 

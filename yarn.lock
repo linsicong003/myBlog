@@ -910,6 +910,11 @@
   resolved "https://registry.npmjs.org/@vuepress/plugin-blog/-/plugin-blog-1.0.0-alpha.49.tgz#dfd0bcc60e76ffd00be781916d9b6b7c2d3f642c"
   integrity sha512-iRQYKej3LC7cOpJA3hoeThnmDsfap699LbzTRcat6xkjlb2//fmJvIm+bJdcWrgfkE8CGitZmOjfYjQsN/PSfw==
 
+"@vuepress/plugin-google-analytics@^1.0.0-rc.1":
+  version "1.0.0-rc.1"
+  resolved "https://registry.yarnpkg.com/@vuepress/plugin-google-analytics/-/plugin-google-analytics-1.0.0-rc.1.tgz#6963ef49710293267137a114122fb3630dc443e2"
+  integrity sha512-t7wP6OVOdehP37eEEOREajo03AKTWC8ah3lKxt6yBJN+QAP1besxxHcBa/vpxa7z0bU8q1Y0bP4TLfd8ng+8IQ==
+
 "@vuepress/plugin-last-updated@^1.0.3":
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/@vuepress/plugin-last-updated/-/plugin-last-updated-1.0.3.tgz#b9e3cd2d7cc27d0e70e7ea2194c171607bd61493"
@@ -7202,10 +7207,10 @@ uuid@^3.0.0, uuid@^3.0.1, uuid@^3.3.2:
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.3.2.tgz#1b4af4955eb3077c501c23872fc6513811587131"
   integrity sha512-yXJmeNaw3DnnKAOKJE51sL/ZaYfWJRl1pK9dr19YFCu0ObS231AB1/LbqTKRAQ5kw8A90rA6fr4riOUpTZvQZA==
 
-valine@1.3.6:
-  version "1.3.6"
-  resolved "https://registry.npmjs.org/valine/-/valine-1.3.6.tgz#e39ba279a63eaf7c03fcbb23766226d03909b0cc"
-  integrity sha512-DVdbzyVXvDRqN7dAprXUpSvfJaFrA+WDxH44SR+X9Gc22xx5RCLsk8SLClcb1TPE5m1P/HoqCvoSeOcPu4Ra/A==
+valine@^1.3.9:
+  version "1.3.9"
+  resolved "https://registry.yarnpkg.com/valine/-/valine-1.3.9.tgz#6eb43954e8cc1f842345537889db6bfb005b112f"
+  integrity sha512-pJIEKDYpzDlGmyP3Jt6vMS7OkOszjSCJ3QJ9su6hHpk4t5ulS9cbAWIp4Zbzb76p3lDe0cRD2ZhckSQZzhTnJQ==
 
 vary@~1.1.2:
   version "1.1.2"
@@ -7350,6 +7355,11 @@ vuepress-plugin-reading-progress@^1.0.7:
   version "1.0.7"
   resolved "https://registry.yarnpkg.com/vuepress-plugin-reading-progress/-/vuepress-plugin-reading-progress-1.0.7.tgz#9a278866b5280e447226579945eded3055ba48ce"
   integrity sha512-XFnD42/Xt4ZQ3G0j1ViF2WmBJM7f+zYJLKfD2ZEkIq3Ar38c3FKR/LU94aENaWRGnfDMDmAMEYjLrcmR4uq49g==
+
+vuepress-plugin-seo@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-seo/-/vuepress-plugin-seo-0.1.2.tgz#132e656274bfaffce72e816fb8450951f3f6cc13"
+  integrity sha512-Tv3ihNl3pDX5krqq9r2X9rFKUVR8ssLvcKcu1P4ABP8/b3vC06St/UTe5QucgKzuphlIJkbRSOQ7n7yf6jMCRw==
 
 vuepress@^1.0.3:
   version "1.0.3"

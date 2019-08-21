@@ -10,9 +10,12 @@
 <script>
 import SidebarLinks from "@theme/components/SidebarLinks.vue";
 import NavLinks from "@theme/components/NavLinks.vue";
+import Mixin from "@theme/util/mixin.js";
 
 export default {
   name: "Sidebar",
+
+  mixins: [Mixin],
 
   components: { SidebarLinks, NavLinks },
 
