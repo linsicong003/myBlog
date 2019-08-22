@@ -25,7 +25,7 @@ module.exports = {
                 ]
             },
             { text: 'TypeScript', link: '/category/TS/', icon: 'reco-three' },
-            { text: 'Rust', link: '/category/Rust/', icon: 'reco-npm' },
+            { text: 'Python', link: '/category/Python/', icon: 'reco-npm' },
             {
                 text: '关于', icon: 'reco-other', items: [
                     { text: '关于我', link: '/category/About/' },
