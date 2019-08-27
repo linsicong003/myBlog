@@ -2,7 +2,7 @@ const path = require('path')
 
 module.exports = {
     title: 'Clancy小屋',
-    description: '随你肆意颤抖',
+    description: '慢慢来   比较快',
     base: '/',
     dest: 'dist/',
     head: [
