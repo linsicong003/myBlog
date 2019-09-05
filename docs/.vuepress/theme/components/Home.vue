@@ -36,14 +36,15 @@
         </span>
         <span>
           <i class="iconfont reco-copyright"></i>
-          <a>
+          <a href="http://www.beian.miit.gov.cn">粤ICP备17074488号</a>
+          <!-- <a>
             <span v-if="$themeConfig.startYear">{{ $themeConfig.startYear }} -</span>
             {{ year }}
             &nbsp;&nbsp;
             <span
               v-if="$themeConfig.author || $site.title"
             >{{ $themeConfig.author || $site.title }}</span>
-          </a>
+          </a>-->
         </span>
         <span>
           <AccessNumber idVal="/"></AccessNumber>

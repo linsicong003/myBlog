@@ -46,6 +46,16 @@ export default {
       common: null
     };
   },
+  watch: {
+    $route: {
+      handler(val) {
+        if (val.path === "/") {
+          this.backToTop();
+        }
+      },
+      deep: true
+    }
+  },
   mounted() {
     this.common = document.getElementById("common");
 

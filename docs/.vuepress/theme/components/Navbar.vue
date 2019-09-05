@@ -83,8 +83,8 @@ $navbar-horizontal-padding = 1.5rem;
   padding: $navbar-vertical-padding $navbar-horizontal-padding;
   line-height: $navbarHeight - 1.4rem;
   box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
-  position: relative;
 
+  // position: relative;
   a, span, img {
     display: inline-block;
   }
