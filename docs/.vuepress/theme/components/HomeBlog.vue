@@ -103,6 +103,7 @@ export default {
     // 时间降序后的博客列表
     posts() {
       let posts = this.$site.pages;
+      console.log(this.$site.pages);
       posts = posts.filter(item => {
         const { home, isTimeLine, date } = item.frontmatter;
         return !(home == true || isTimeLine == true || date === undefined);
