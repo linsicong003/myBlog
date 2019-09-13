@@ -1,7 +1,7 @@
 <template>
   <div class="abstract-wrapper">
     <div
-      v-for="(item, index) in data"
+      v-for="(item, index) in list"
       :key="item.path"
       v-show="index >= (currentPage * 10 - 10) && index < currentPage * 10"
       class="abstract-item">
@@ -21,7 +21,19 @@ import PageInfo from './PageInfo'
 
 export default {
   components: { PageInfo },
-  props: ['data', 'currentPage', 'currentTag', 'isHome']
+  props: ['data', 'currentPage', 'currentTag', 'isHome'],
+  computed: {
+    list() {
+      console.log(this.data)
+      let result = []
+      if (this.data && this.data.length > 5) {
+        result = this.data.slice(0, 5)
+      } else {
+        result = this.data || []
+      }
+      return result
+    }
+  }
 }
 </script>
 
