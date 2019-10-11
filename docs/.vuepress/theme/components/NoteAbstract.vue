@@ -4,62 +4,66 @@
       v-for="(item, index) in list"
       :key="item.path"
       v-show="index >= (currentPage * 10 - 10) && index < currentPage * 10"
-      class="abstract-item">
+      class="abstract-item"
+    >
       <div class="title">
-        <router-link
-          :to="item.path">{{item.title}}</router-link>
+        <router-link :to="item.path">{{item.title}}</router-link>
       </div>
       <div class="abstract" v-html="item.excerpt"></div>
-      <hr>
+      <hr />
       <PageInfo :pageInfo="item" :isHome="!(isHome !== true)" :currentTag="currentTag"></PageInfo>
     </div>
   </div>
 </template>
 
 <script>
-import PageInfo from './PageInfo'
+import PageInfo from "./PageInfo";
 
 export default {
   components: { PageInfo },
-  props: ['data', 'currentPage', 'currentTag', 'isHome'],
+  props: ["data", "currentPage", "currentTag", "isHome"],
   computed: {
     list() {
-      console.log(this.data)
-      let result = []
-      if (this.data && this.data.length > 5) {
-        result = this.data.slice(0, 5)
+      console.log(this.data);
+      let result = [];
+      if (this.data && this.data.length > 5 && this.$route.path === "/") {
+        result = this.data.slice(0, 5);
       } else {
-        result = this.data || []
+        result = this.data || [];
       }
-      return result
+      return result;
     }
   }
-}
+};
 </script>
 
 <style lang="stylus" scoped>
+.abstract-wrapper {
+  width: 100%;
 
-.abstract-wrapper
-  width 100%
-  .abstract-item
+  .abstract-item {
     margin: 0 auto 20px;
     padding: 16px 20px;
-    width 100%
+    width: 100%;
     overflow: hidden;
     border-radius: 2px;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
     box-sizing: border-box;
-    transition all .3s
-    background-color $bgColor
-    &:hover
+    transition: all 0.3s;
+    background-color: $bgColor;
+
+    &:hover {
       box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2);
-    .title
+    }
+
+    .title {
       position: relative;
       font-size: 1.28rem;
       line-height: 36px;
       display: inline-block;
-      :after
-        content: "";
+
+      :after {
+        content: '';
         position: absolute;
         width: 100%;
         height: 2px;
@@ -69,22 +73,37 @@ export default {
         visibility: hidden;
         -webkit-transform: scaleX(0);
         transform: scaleX(0);
-        transition: .3s ease-in-out;
-      :hover:after
-        visibility visible
+        transition: 0.3s ease-in-out;
+      }
+
+      :hover:after {
+        visibility: visible;
         -webkit-transform: scaleX(1);
         transform: scaleX(1);
-    .tags
-      .tag-item
-        cursor: pointer;
-        &.active
-          color $accentColor
-        &:hover 
-          color $accentColor
+      }
+    }
 
-@media (max-width: $MQMobile)
-  .tags
-    display block
-    margin-top 1rem;
-    margin-left: 0!important;
+    .tags {
+      .tag-item {
+        cursor: pointer;
+
+        &.active {
+          color: $accentColor;
+        }
+
+        &:hover {
+          color: $accentColor;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: $MQMobile) {
+  .tags {
+    display: block;
+    margin-top: 1rem;
+    margin-left: 0 !important;
+  }
+}
 </style>
