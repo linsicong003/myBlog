@@ -1,29 +1,29 @@
 <template>
-  <div
-    class="theme-container"
-    id="common"
-    :class="pageClasses"
-    @touchstart="onTouchStart"
-    @touchend="onTouchEnd"
-  >
-    <Password v-if="!isHasKey"></Password>
-    <div v-else>
-      <Navbar v-if="shouldShowNavbar" @toggle-sidebar="toggleSidebar" />
+  <div class="main-container">
+    <Navbar v-if="shouldShowNavbar" @toggle-sidebar="toggleSidebar" />
+    <BackToTop></BackToTop>
+    <div
+      class="theme-container"
+      id="common"
+      :class="pageClasses"
+      @touchstart="onTouchStart"
+      @touchend="onTouchEnd"
+    >
+      <Password v-if="!isHasKey"></Password>
+      <div class="common" v-else>
+        <div class="sidebar-mask" @click="toggleSidebar(false)"></div>
 
-      <div class="sidebar-mask" @click="toggleSidebar(false)"></div>
+        <Sidebar :items="sidebarItems" @toggle-sidebar="toggleSidebar">
+          <slot name="sidebar-top" slot="top" />
+          <slot name="sidebar-bottom" slot="bottom" />
+        </Sidebar>
 
-      <Sidebar :items="sidebarItems" @toggle-sidebar="toggleSidebar">
-        <slot name="sidebar-top" slot="top" />
-        <slot name="sidebar-bottom" slot="bottom" />
-      </Sidebar>
-
-      <Password v-if="!isHasPageKey" :isPage="true"></Password>
-      <div v-else>
-        <slot></slot>
-        <Valine :isComment="isComment"></Valine>
+        <Password v-if="!isHasPageKey" :isPage="true"></Password>
+        <div v-else>
+          <slot></slot>
+          <Valine :isComment="isComment"></Valine>
+        </div>
       </div>
-
-      <BackToTop></BackToTop>
     </div>
   </div>
 </template>
