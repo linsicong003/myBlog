@@ -23,7 +23,7 @@
         </Sidebar>
 
         <Password v-if="!isHasPageKey" :isPage="true"></Password>
-        <div v-else>
+        <div :class="{'category': $route.path.includes('category')}" v-else>
           <slot></slot>
           <Valine :isComment="isComment"></Valine>
         </div>

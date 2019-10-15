@@ -19,7 +19,7 @@
         @click="goTags(subItem)"
       >{{subItem}}</span>
     </i>
-    <span class="pageFull" @click="full">全屏</span>
+    <span class="pageFull" @click="full" v-if="fullShow">全屏</span>
   </div>
 </template>
 
@@ -51,6 +51,13 @@ export default {
         color: "#999"
       }
     };
+  },
+  computed: {
+    fullShow() {
+      const path = this.$route.path;
+      console.log(this.$page);
+      return path !== "/" && !path.includes("category");
+    }
   },
 
   methods: {
