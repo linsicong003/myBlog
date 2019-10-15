@@ -73,6 +73,7 @@ export default {
       this.visible = this.common.scrollTop > this.visibilityHeight;
     },
     backToTop() {
+      console.log("click");
       if (this.isMoving) return;
       const start = this.common.scrollTop;
       let i = 0;
@@ -103,6 +104,7 @@ export default {
   display: inline-block;
   text-align: center;
   cursor: pointer;
+  z-index: 19;
 
   i {
     font-size: 1.6rem;

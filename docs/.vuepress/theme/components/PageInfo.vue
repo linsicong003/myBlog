@@ -1,11 +1,14 @@
 <template>
-  <div>
+  <div style="position: relative;">
     <i
       class="iconfont reco-account"
-      v-if="pageInfo.frontmatter.author || $themeConfig.author || $site.title">
+      v-if="pageInfo.frontmatter.author || $themeConfig.author || $site.title"
+    >
       <span>{{ pageInfo.frontmatter.author || $themeConfig.author || $site.title }}</span>
     </i>
-    <i class="iconfont reco-date" v-if="pageInfo.frontmatter.date"><span>{{ new Date(pageInfo.frontmatter.date).toLocaleDateString() }}</span></i>
+    <i class="iconfont reco-date" v-if="pageInfo.frontmatter.date">
+      <span>{{ new Date(pageInfo.frontmatter.date).toLocaleDateString() }}</span>
+    </i>
     <AccessNumber v-if="isHome !== true" :idVal="pageInfo.path" :numStyle="numStyle"></AccessNumber>
     <i class="iconfont reco-tag tags" v-if="pageInfo.frontmatter.tags">
       <span
@@ -13,15 +16,15 @@
         :key="subIndex"
         class="tag-item"
         :class="{ 'active': currentTag == subItem }"
-        @click="goTags(subItem)">
-        {{subItem}}
-      </span>
+        @click="goTags(subItem)"
+      >{{subItem}}</span>
     </i>
+    <span class="pageFull" @click="full">全屏</span>
   </div>
 </template>
 
 <script>
-import AccessNumber from './Valine/AccessNumber'
+import AccessNumber from "./Valine/AccessNumber";
 
 export default {
   components: { AccessNumber },
@@ -33,52 +36,84 @@ export default {
     },
     currentTag: {
       type: String,
-      default: ''
+      default: ""
     },
     isHome: {
       type: Boolean,
       default: false
     }
   },
-  data () {
+  data() {
     return {
       numStyle: {
-        fontSize: '.9rem',
-        fontWeight: 'normal',
-        color: '#999'
+        fontSize: ".9rem",
+        fontWeight: "normal",
+        color: "#999"
+      }
+    };
+  },
+
+  methods: {
+    goTags(tag) {
+      const base = this.$site.base;
+      window.location.href = `${base}tag/#?tag=${tag}`;
+    },
+    full() {
+      const content = document.getElementById("app");
+      if (content.requestFullscreen) {
+        content.requestFullscreen();
       }
     }
-  },
-  
-  methods: {
-    goTags (tag) {
-      const base = this.$site.base
-      window.location.href = `${base}tag/#?tag=${tag}`
-    }
   }
-}
+};
 </script>
 
 <style lang="stylus" scoped>
+.iconfont {
+  display: inline-block;
+  line-height: 1.5rem;
 
-.iconfont
-  display inline-block
-  line-height 1.5rem
-  &:not(:last-child)
-    margin-right 1rem
-  span 
-    margin-left .5rem
-.tags
-  .tag-item
+  &:not(:last-child) {
+    margin-right: 1rem;
+  }
+
+  span {
+    margin-left: 0.5rem;
+  }
+}
+
+.pageFull {
+  font-family: Ubuntu, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-size: 0.9rem;
+  color: #4096fe;
+  cursor: pointer;
+  position: absolute;
+  right: 2px;
+}
+
+.tags {
+  .tag-item {
     cursor: pointer;
-    font-family Ubuntu, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif
-    &.active
-      color $accentColor
-    &:hover 
-      color $accentColor
+    font-family: Ubuntu, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 
-@media (max-width: $MQMobile)
-  .tags
-    display block
-    margin-left: 0!important;
+    &.active {
+      color: $accentColor;
+    }
+
+    &:hover {
+      color: $accentColor;
+    }
+  }
+}
+
+@media (max-width: $MQMobile) {
+  .tags {
+    display: block;
+    margin-left: 0 !important;
+  }
+
+  .pageFull {
+    display: none;
+  }
+}
 </style>

@@ -25,7 +25,7 @@ module.exports = {
                 ]
             },
             { text: 'TypeScript', link: '/category/TS/', icon: 'reco-three' },
-            { text: 'Python', link: '/category/Python/', icon: 'reco-npm' },
+            { text: '时光机', link: '/timeLine', icon: 'reco-npm' },
             {
                 text: '关于', icon: 'reco-other', items: [
                     { text: '关于我', link: '/category/About/' },
@@ -64,15 +64,15 @@ module.exports = {
                 'ga': 'UA-146142841-1' // UA-00000000-0
             }
         ],
-        ['@vssue/vuepress-plugin-vssue', {
-            // 设置 `platform` 而不是 `api`
-            platform: 'github',
+        // ['@vssue/vuepress-plugin-vssue', {
+        //     // 设置 `platform` 而不是 `api`
+        //     platform: 'github',
 
-            // 其他的 Vssue 配置
-            owner: 'Clancy',
-            repo: 'https://github.com/linsicong003/myBlog',
-            clientId: 'f91ff9a1205ad9ac7c60',
-            clientSecret: 'c4fd8f99a68ae9742e96dd8824e48e6cc9a36018',
-        }],
+        //     // 其他的 Vssue 配置
+        //     owner: 'Clancy',
+        //     repo: 'https://github.com/linsicong003/myBlog',
+        //     clientId: 'f91ff9a1205ad9ac7c60',
+        //     clientSecret: 'c4fd8f99a68ae9742e96dd8824e48e6cc9a36018',
+        // }],
     ]
 }

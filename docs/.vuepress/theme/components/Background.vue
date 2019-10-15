@@ -5,16 +5,17 @@
 <script>
 export default {
   mounted() {
-    const keyPage = this.$themeConfig.keyPage
-    let color = '#424242'
-    let lineColor = '#424242'
+    const keyPage = this.$themeConfig.keyPage;
+    let color = "#424242";
+    let lineColor = "#424242";
     if (keyPage) {
-      color = keyPage.color || color
-      lineColor = keyPage.lineColor || lineColor
+      color = keyPage.color || color;
+      lineColor = keyPage.lineColor || lineColor;
     }
-    
+
     const script = document.createElement("script");
-    script.src = "https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js";
+    script.src =
+      "https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js";
 
     document.body.append(script);
     script.onload = function() {
@@ -24,7 +25,7 @@ export default {
             value: 40,
             density: {
               enable: true,
-              value_area: 800
+              value_area: 1000
             }
           },
           color: {
@@ -37,21 +38,21 @@ export default {
               color: "#000000"
             },
             polygon: {
-              nb_sides: 5
+              nb_sides: 2
             }
           },
           opacity: {
             value: 0.3,
             random: false,
             anim: {
-              enable: false,
+              enable: true,
               speed: 1,
               opacity_min: 0.1,
               sync: false
             }
           },
           size: {
-            value: 20,
+            value: 2,
             random: true,
             anim: {
               enable: false,

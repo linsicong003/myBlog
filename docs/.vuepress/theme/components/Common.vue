@@ -1,6 +1,6 @@
 <template>
   <div class="main-container">
-    <Navbar v-if="shouldShowNavbar" @toggle-sidebar="toggleSidebar" />
+    <Navbar v-if="shouldShowNavbar && !full" @toggle-sidebar="toggleSidebar" />
     <BackToTop></BackToTop>
     <div
       class="theme-container"
@@ -13,7 +13,11 @@
       <div class="common" v-else>
         <div class="sidebar-mask" @click="toggleSidebar(false)"></div>
 
-        <Sidebar :items="sidebarItems" @toggle-sidebar="toggleSidebar">
+        <Sidebar
+          :items="sidebarItems"
+          @toggle-sidebar="toggleSidebar"
+          v-if="!$route.path.includes('timeLine')"
+        >
           <slot name="sidebar-top" slot="top" />
           <slot name="sidebar-bottom" slot="bottom" />
         </Sidebar>
@@ -46,7 +50,8 @@ export default {
       isSidebarOpen: false,
       isHasKey: true,
       isHasPageKey: true,
-      nightMode: false
+      nightMode: false,
+      full: false
     };
   },
 
@@ -65,7 +70,6 @@ export default {
         this.$themeLocaleConfig.nav
       );
     },
-
     shouldShowSidebar() {
       const { frontmatter } = this.$page;
       return (
@@ -111,6 +115,17 @@ export default {
 
     this.hasKey();
     this.hasPageKey();
+    // 监听全屏事件
+    document.addEventListener("fullscreenchange", e => {
+      if (document.fullscreenElement) {
+        console.log("已进入全屏");
+        this.full = true;
+        this.$tip.success({ title: "您已进入全屏预览模式" });
+      } else {
+        this.full = false;
+        this.$tip.success({ title: "您已退出全屏预览模式" });
+      }
+    });
   },
 
   methods: {

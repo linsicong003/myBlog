@@ -12,7 +12,7 @@
 
     <TimeLine v-if="isTimeLine"></TimeLine>
 
-    <footer class="page-edit">
+    <footer class="page-edit" v-if="!isTimeLine">
       <div class="edit-link" v-if="editLink">
         <a :href="editLink" target="_blank" rel="noopener noreferrer">{{ editLinkText }}</a>
         <OutboundLink />
@@ -43,9 +43,7 @@
     </div>
 
     <slot name="bottom" />
-    <div class="comment-container">
-      <Vssue title="留下你的评论吧~" />
-    </div>
+    <!-- <div class="comment-container"></div> -->
   </main>
 </template>
 
@@ -67,7 +65,8 @@ export default {
 
   computed: {
     isTimeLine() {
-      return this.$frontmatter.isTimeLine;
+      // return this.$frontmatter.isTimeLine;
+      return this.$route.path.includes("/timeLine");
     },
     lastUpdated() {
       return new Date(

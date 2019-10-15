@@ -1,17 +1,21 @@
 <template>
-  <div class="bg-container" :style="bgImg"></div>
+  <div class="bg-container">
+    <Background v-if="$route.path !== '/'" />
+  </div>
 </template>
 
-<<script>
+<script>
+import Background from "@theme/components/Background";
 export default {
-    computed: {
-        bgImg() {
-            return `background: url('${this.$frontmatter.image || this.$themeConfig.background}')`
-        }
-    },
-    mounted() {
+  components: { Background },
+  computed: {
+    bgImg() {
+      return `background: url('${this.$frontmatter.image ||
+        this.$themeConfig.background}')`;
     }
-}
+  },
+  mounted() {}
+};
 </script>
 
 <style src="../styles/layoutBackground.styl" lang="stylus"></style>

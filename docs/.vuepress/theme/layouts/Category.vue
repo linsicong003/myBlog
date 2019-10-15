@@ -1,7 +1,7 @@
 <template>
   <div class="categories-wrapper" :class="recoShow ?'reco-show' : 'reco-hide'">
     <!-- 公共布局 -->
-    <Common :sidebar="false" :isComment="false">
+    <Common :sidebar="false" :isComment="true">
       <!-- 分类集合 -->
       <ul class="category-wrapper">
         <li
