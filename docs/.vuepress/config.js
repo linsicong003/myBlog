@@ -29,7 +29,6 @@ module.exports = {
             {
                 text: '关于', icon: 'reco-other', items: [
                     { text: '关于我', link: '/category/About/' },
-                    { text: '分类', link: '/category/' },
                 ]
             }
         ],

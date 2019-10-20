@@ -121,9 +121,11 @@ export default {
         console.log("已进入全屏");
         this.full = true;
         this.$tip.success({ title: "您已进入全屏预览模式" });
+        this.$bus.$emit('openFull');
       } else {
         this.full = false;
         this.$tip.success({ title: "您已退出全屏预览模式" });
+        this.$bus.$emit('closeFull');
       }
     });
   },

@@ -1,4 +1,5 @@
 import TipInit from '@theme/components/Tip/index';
+import Preview from '@theme/components/Preview/index'
 import routes from './routes.js'
 
 export default ({
@@ -12,4 +13,9 @@ export default ({
     router.addRoutes(routes)
     // 添加弹窗组件
     Vue.use(TipInit)
+    // 添加预览组件
+    Vue.use(Preview)
+    // eventbus
+    const bus = new Vue();
+    Vue.prototype.$bus = bus;
 }

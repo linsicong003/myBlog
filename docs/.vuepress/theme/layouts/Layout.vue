@@ -1,8 +1,6 @@
 <template>
   <div @touchend="onTouchEnd">
-    <!-- <NavBar v-if="shouldShowNavbar" @toggle-sidebar="toggleSidebar" /> -->
     <LayOutBackground />
-    <!-- <BackToTop /> -->
     <Common class="common" ref="nowContent" :isComment="true">
       <Home v-if="$frontmatter.home && $themeConfig.type !== 'blog'" />
       <HomeBlog v-else-if="$frontmatter.home && $themeConfig.type === 'blog'" />
@@ -20,8 +18,6 @@ import Home from "@theme/components/Home.vue";
 import HomeBlog from "@theme/components/HomeBlog.vue";
 import Page from "@theme/components/Page.vue";
 import Common from "@theme/components/Common.vue";
-import NavBar from "@theme/components/NavBar.vue";
-import BackToTop from "@theme/components/BackToTop";
 import { resolveSidebarItems } from "../util";
 
 export default {
@@ -31,8 +27,6 @@ export default {
     Page,
     Common,
     LayOutBackground,
-    NavBar,
-    BackToTop
   },
 
   computed: {
@@ -75,6 +69,17 @@ export default {
         }
       }
     }
+  },
+  created() {
+    console.log(`
+    ----------------------------------------
+    嘿嘿 ヾ(๑╹◡╹)ﾉ" 终于等到你
+
+    想跟我交流更多，那就快点给我发邮件吧！
+
+    linsicong003@gmail.com
+    ----------------------------------------
+    `)
   }
 };
 </script>

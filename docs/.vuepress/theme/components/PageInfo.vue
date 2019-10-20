@@ -19,7 +19,7 @@
         @click="goTags(subItem)"
       >{{subItem}}</span>
     </i>
-    <span class="pageFull" @click="full" v-if="fullShow">全屏</span>
+    <span class="pageFull" @click="full" v-if="fullShow && !fullStatus">全屏</span>
   </div>
 </template>
 
@@ -49,17 +49,16 @@ export default {
         fontSize: ".9rem",
         fontWeight: "normal",
         color: "#999"
-      }
+      },
+      fullStatus: false
     };
   },
   computed: {
     fullShow() {
       const path = this.$route.path;
-      console.log(this.$page);
       return path !== "/" && !path.includes("category");
-    }
+    },
   },
-
   methods: {
     goTags(tag) {
       const base = this.$site.base;
@@ -71,6 +70,14 @@ export default {
         content.requestFullscreen();
       }
     }
+  },
+  mounted() {
+    this.$bus.$on('openFull', () => {
+      this.fullStatus = true;
+    })
+    this.$bus.$on('closeFull', () => {
+      this.fullStatus = false;
+    })
   }
 };
 </script>

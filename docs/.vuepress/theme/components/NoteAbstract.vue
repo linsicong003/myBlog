@@ -24,7 +24,6 @@ export default {
   props: ["data", "currentPage", "currentTag", "isHome"],
   computed: {
     list() {
-      console.log(this.data);
       let result = [];
       if (this.data && this.data.length > 5 && this.$route.path === "/") {
         result = this.data.slice(0, 5);
