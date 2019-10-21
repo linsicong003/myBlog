@@ -21,10 +21,11 @@ module.exports = {
             {
                 text: '前端', icon: 'reco-api', items: [
                     { text: '前端基础', link: '/category/Front/' },
+                    { text: 'TypeScript', link: '/category/TS/' },
                     { text: '杂谈', link: '/category/Comment/' },
                 ]
             },
-            { text: 'TypeScript', link: '/category/TS/', icon: 'reco-three' },
+            { text: '每日练题', link: '/category/DailyTest/', icon: 'reco-three' },
             { text: '时光机', link: '/timeLine', icon: 'reco-npm' },
             {
                 text: '关于', icon: 'reco-other', items: [

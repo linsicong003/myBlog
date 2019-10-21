@@ -8,7 +8,7 @@
     <link rel="icon" href="icon.ico">
   <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
     <meta property="article:published_time" content="2019-08-15T00:00:00.000Z"><meta property="article:modified_time" content="2019-08-17T07:38:54.000Z"><meta property="og:site_name" content="Clancy小屋"><meta property="og:title" content="Vue 下 Input 元素的值筛选与限制输入"><meta property="og:type" content="website"><meta property="og:url" content="/Front/2019-8-15-input.html"><meta property="og:image" content="https://picsum.photos/1920/1080?random=20190815&amp;blur=2"><meta name="twitter:title" content="Vue 下 Input 元素的值筛选与限制输入"><meta name="twitter:url" content="/Front/2019-8-15-input.html"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="https://picsum.photos/1920/1080?random=20190815&amp;blur=2"><meta name="twitter:label1" content="Written by"><meta name="twitter:label2" content="Filed under"><meta name="twitter:data2" content="Front, 前端"><meta property="article:tag" content="Front"><meta property="article:tag" content="前端">
-    <link rel="preload" href="/assets/css/0.styles.523a9e87.css" as="style"><link rel="preload" href="/assets/js/app.e7b0022f.js" as="script"><link rel="preload" href="/assets/js/3.b8038deb.js" as="script"><link rel="preload" href="/assets/js/2.e054a135.js" as="script"><link rel="preload" href="/assets/js/1.2fd77c85.js" as="script"><link rel="preload" href="/assets/js/9.707dda3b.js" as="script"><link rel="prefetch" href="/assets/js/10.818432cf.js"><link rel="prefetch" href="/assets/js/11.a96774e1.js"><link rel="prefetch" href="/assets/js/12.c097f1e3.js"><link rel="prefetch" href="/assets/js/13.89d197c8.js"><link rel="prefetch" href="/assets/js/14.c4d2d7cb.js"><link rel="prefetch" href="/assets/js/15.1b715094.js"><link rel="prefetch" href="/assets/js/16.7589e1c9.js"><link rel="prefetch" href="/assets/js/17.1b722ceb.js"><link rel="prefetch" href="/assets/js/18.b9876ef6.js"><link rel="prefetch" href="/assets/js/19.bb3b45eb.js"><link rel="prefetch" href="/assets/js/20.2916b641.js"><link rel="prefetch" href="/assets/js/21.f4e99172.js"><link rel="prefetch" href="/assets/js/22.9374cec1.js"><link rel="prefetch" href="/assets/js/23.1d34a36c.js"><link rel="prefetch" href="/assets/js/24.bcbbb2f5.js"><link rel="prefetch" href="/assets/js/25.f5911cb0.js"><link rel="prefetch" href="/assets/js/26.3169344d.js"><link rel="prefetch" href="/assets/js/27.a1ca804e.js"><link rel="prefetch" href="/assets/js/28.f7427808.js"><link rel="prefetch" href="/assets/js/29.451c4fcb.js"><link rel="prefetch" href="/assets/js/5.877d7757.js"><link rel="prefetch" href="/assets/js/6.6f94e134.js"><link rel="prefetch" href="/assets/js/7.dce66a37.js"><link rel="prefetch" href="/assets/js/8.14479e83.js">
+    <link rel="preload" href="/assets/css/0.styles.523a9e87.css" as="style"><link rel="preload" href="/assets/js/app.458833b8.js" as="script"><link rel="preload" href="/assets/js/3.b8038deb.js" as="script"><link rel="preload" href="/assets/js/2.e054a135.js" as="script"><link rel="preload" href="/assets/js/1.2fd77c85.js" as="script"><link rel="preload" href="/assets/js/9.707dda3b.js" as="script"><link rel="prefetch" href="/assets/js/10.376195f3.js"><link rel="prefetch" href="/assets/js/11.a96774e1.js"><link rel="prefetch" href="/assets/js/12.c097f1e3.js"><link rel="prefetch" href="/assets/js/13.37fc2f1b.js"><link rel="prefetch" href="/assets/js/14.e5990cb9.js"><link rel="prefetch" href="/assets/js/15.7c6c8f43.js"><link rel="prefetch" href="/assets/js/16.f0ba3699.js"><link rel="prefetch" href="/assets/js/17.795b07ba.js"><link rel="prefetch" href="/assets/js/18.04f88899.js"><link rel="prefetch" href="/assets/js/19.3fa3b3ec.js"><link rel="prefetch" href="/assets/js/20.9d1bd29c.js"><link rel="prefetch" href="/assets/js/21.ebcb61eb.js"><link rel="prefetch" href="/assets/js/22.c83ca5f5.js"><link rel="prefetch" href="/assets/js/23.c6142455.js"><link rel="prefetch" href="/assets/js/24.bcbbb2f5.js"><link rel="prefetch" href="/assets/js/25.f5911cb0.js"><link rel="prefetch" href="/assets/js/26.297514fc.js"><link rel="prefetch" href="/assets/js/27.3098f630.js"><link rel="prefetch" href="/assets/js/28.72db0322.js"><link rel="prefetch" href="/assets/js/29.451c4fcb.js"><link rel="prefetch" href="/assets/js/5.877d7757.js"><link rel="prefetch" href="/assets/js/6.6f94e134.js"><link rel="prefetch" href="/assets/js/7.dce66a37.js"><link rel="prefetch" href="/assets/js/8.14479e83.js">
     <link rel="stylesheet" href="/assets/css/0.styles.523a9e87.css">
   </head>
   <body>
@@ -20,10 +20,12 @@
       前端
     </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/category/Front/" class="nav-link"><i class="iconfont undefined"></i>
   前端基础
+</a></li><li class="dropdown-item"><!----> <a href="/category/TS/" class="nav-link"><i class="iconfont undefined"></i>
+  TypeScript
 </a></li><li class="dropdown-item"><!----> <a href="/category/Comment/" class="nav-link"><i class="iconfont undefined"></i>
   杂谈
-</a></li></ul></div></div><div class="nav-item"><a href="/category/TS/" class="nav-link"><i class="iconfont reco-three"></i>
-  TypeScript
+</a></li></ul></div></div><div class="nav-item"><a href="/category/DailyTest/" class="nav-link"><i class="iconfont reco-three"></i>
+  每日练题
 </a></div><div class="nav-item"><a href="/timeLine.html" class="nav-link"><i class="iconfont reco-npm"></i>
   时光机
 </a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-other"></i>
@@ -38,10 +40,12 @@
       前端
     </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/category/Front/" class="nav-link"><i class="iconfont undefined"></i>
   前端基础
+</a></li><li class="dropdown-item"><!----> <a href="/category/TS/" class="nav-link"><i class="iconfont undefined"></i>
+  TypeScript
 </a></li><li class="dropdown-item"><!----> <a href="/category/Comment/" class="nav-link"><i class="iconfont undefined"></i>
   杂谈
-</a></li></ul></div></div><div class="nav-item"><a href="/category/TS/" class="nav-link"><i class="iconfont reco-three"></i>
-  TypeScript
+</a></li></ul></div></div><div class="nav-item"><a href="/category/DailyTest/" class="nav-link"><i class="iconfont reco-three"></i>
+  每日练题
 </a></div><div class="nav-item"><a href="/timeLine.html" class="nav-link"><i class="iconfont reco-npm"></i>
   时光机
 </a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-other"></i>
@@ -113,6 +117,6 @@ methods<span class="token punctuation">:</span> <span class="token punctuation">
   <span class="token punctuation">}</span>
 <span class="token punctuation">}</span><span class="token punctuation">,</span>
 </code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br></div></div><p>到此整个输入框组件的构建就大功告成啦~以后可以直接使用了。</p></div> <!----> <footer class="page-edit"><!----> <div class="author-text"><span class="prefix">作者：</span> <span class="name">Clancy Lin</span></div> <div class="last-updated"><span class="prefix">最后更新：</span> <span class="time">2019-8-17</span></div></footer> <!----> </main> <div class="valine-wrapper" data-v-317df8f8><div id="valine" data-v-317df8f8></div></div></div></div></div></div></div><div class="global-ui"><div class="reading-progress top" data-v-7681808f><div class="progress" data-v-7681808f></div></div></div></div>
-    <script src="/assets/js/app.e7b0022f.js" defer></script><script src="/assets/js/3.b8038deb.js" defer></script><script src="/assets/js/2.e054a135.js" defer></script><script src="/assets/js/1.2fd77c85.js" defer></script><script src="/assets/js/9.707dda3b.js" defer></script>
+    <script src="/assets/js/app.458833b8.js" defer></script><script src="/assets/js/3.b8038deb.js" defer></script><script src="/assets/js/2.e054a135.js" defer></script><script src="/assets/js/1.2fd77c85.js" defer></script><script src="/assets/js/9.707dda3b.js" defer></script>
   </body>
 </html>
