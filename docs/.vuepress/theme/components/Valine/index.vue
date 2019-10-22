@@ -83,8 +83,8 @@ export default {
   padding-left: 20rem;
 
   #valine {
-    padding: 2rem;
-    max-width: 740px;
+    padding: 2rem 0;
+    max-width: 820px;
     margin: 0 auto;
   }
 }
