@@ -8,7 +8,7 @@
       <PageInfo :pageInfo="$page"></PageInfo>
     </div>
 
-    <Content/>
+    <Content />
 
     <TimeLine v-if="isTimeLine"></TimeLine>
 
@@ -18,7 +18,7 @@
         <OutboundLink />
       </div>
 
-      <div class="author-text">
+      <!-- <div class="author-text">
         <span class="prefix">作者：</span>
         <span class="name">{{ $themeConfig.author }}</span>
       </div>
@@ -26,7 +26,7 @@
       <div class="last-updated" v-if="lastUpdated">
         <span class="prefix">{{ lastUpdatedText }}：</span>
         <span class="time">{{ lastUpdated }}</span>
-      </div>
+      </div>-->
     </footer>
 
     <div class="page-nav" v-if="prev || next">
@@ -140,14 +140,15 @@ export default {
 
   mounted() {
     // 绑定弹出图片预览
-    let content = document.querySelector('.content__default')
-    content && content.addEventListener('click', (e) => {
-      console.log(e)
-      const tagName = e.target.localName;
-      const src = e.target.attributes['src'].value;
-      const alt = e.target.attributes['alt'].value;
-      tagName === 'img' && this.$preview({ src, alt})
-    })
+    let content = document.querySelector(".content__default");
+    content &&
+      content.addEventListener("click", e => {
+        console.log(e);
+        const tagName = e.target.localName;
+        const src = e.target.attributes["src"].value;
+        const alt = e.target.attributes["alt"].value;
+        tagName === "img" && this.$preview({ src, alt });
+      });
     this.recoShow = true;
 
     const keys = this.$frontmatter.keys;
@@ -157,7 +158,6 @@ export default {
     }
 
     this.isHasKey = keys && keys.indexOf(sessionStorage.getItem("key")) > -1;
-
   },
 
   methods: {

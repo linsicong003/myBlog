@@ -14,7 +14,6 @@ const VuePressPreview = {
             // 初始化数据
             let { src, alt } = obj;
             // 弹窗实例
-            // 单例模式
             let VuePreview = Vue.extend({
                 render(h) {
                     let props = {
@@ -38,11 +37,11 @@ const VuePressPreview = {
             let vm = newTip.$mount()
             let el = vm.$el
             let app = document.getElementById('app')
-             // 判断预览实例是否已存在
+            // 判断预览实例是否已存在
             let previewItem = document.querySelector('.v-preview')
 
             !previewItem && app.appendChild(el) // 把生成的提示的dom插入body中
-            
+
             vm.show = true
 
             // 点击隐藏事件
@@ -57,10 +56,10 @@ const VuePressPreview = {
         Vue.prototype['$preview'] = (obj) => {
             if (!obj) {
                 throw Error('Please send attributes');
-                return 
+                return
             }
             msg(obj)
-        } 
+        }
     }
 }
 
