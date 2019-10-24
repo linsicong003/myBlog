@@ -1,5 +1,5 @@
 ---
-title: 每日练题#3
+title: 导航页
 # display: home
 # image: https://raw.githubusercontent.com/linsicong003/blog-img/master/20190817-bg.jpg
 date: 2019-10-24
