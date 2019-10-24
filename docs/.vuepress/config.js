@@ -25,7 +25,7 @@ module.exports = {
                     { text: '杂谈', link: '/category/Comment/' },
                 ]
             },
-            { text: '每日练题', link: '/category/DailyTest/', icon: 'reco-three' },
+            { text: '每日练题', link: '/category/DailyTest/Navigator', icon: 'reco-three' },
             { text: '时光机', link: '/timeLine', icon: 'reco-npm' },
             {
                 text: '关于', icon: 'reco-other', items: [
