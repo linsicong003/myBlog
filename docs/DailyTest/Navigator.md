@@ -26,4 +26,4 @@ categories:
 - [1、2019.10.22  :rocket: JavaScript 中的装饰器](https://linsicong.com/DailyTest/2019-10-22-1.html)
 - [2、2019.10.23  :rocket: 词法作用域与动态作用域](https://linsicong.com/DailyTest/2019-10-23-2.html)
 - [3、2019.10.24  :rocket: 类型系统与相等性判断](https://linsicong.com/DailyTest/2019-10-24-3.html)
-- [4、2019.10.25  :rocket: JavaScript中的柯里化](https://linsicong.com/DailyTest/2019-10-24-4.html)
+- [4、2019.10.25  :rocket: JavaScript中的柯里化](https://linsicong.com/DailyTest/2019-10-25-4.html)
