@@ -26,7 +26,18 @@ export default {
     list() {
       let result = [];
       if (this.data && this.data.length > 5 && this.$route.path === "/") {
-        result = this.data.slice(0, 5);
+        let tmp = this.data.filter(item => {
+          if (item.path === "/DailyTest/Navigator.html") {
+            // 将每日练题导航页置顶
+            result.push(item);
+          }
+          if (item.path.includes("DailyTest")) {
+            // 如果是每日一练内容则丢弃
+            return false;
+          }
+          return true;
+        });
+        result = result.concat(tmp.slice(0, 4));
       } else {
         result = this.data || [];
       }
