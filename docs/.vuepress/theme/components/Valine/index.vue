@@ -79,7 +79,7 @@ export default {
 }
 
 .valine-wrapper {
-  background-color: $bgColor;
+  background-color: #fff;
   padding-left: 20rem;
 
   #valine {
