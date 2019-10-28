@@ -23,7 +23,7 @@ categories:
 
 ## 2019.10 :leopard:
 
-- [7、2019.10.28  :rocket: JavaScript中的节流与防抖](https://linsicong.com/DailyTest/2019-10-27-6.html)
+- [7、2019.10.28  :rocket: JavaScript中深拷贝](https://linsicong.com/DailyTest/2019-10-28-7.html)
 - [6、2019.10.27  :rocket: JavaScript中的节流与防抖](https://linsicong.com/DailyTest/2019-10-27-6.html)
 - [5、2019.10.26  :rocket: JavaScript中的事件流](https://linsicong.com/DailyTest/2019-10-26-5.html)
 - [4、2019.10.25  :rocket: JavaScript中的柯里化](https://linsicong.com/DailyTest/2019-10-25-4.html)
