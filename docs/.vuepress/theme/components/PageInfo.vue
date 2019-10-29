@@ -19,12 +19,12 @@
         @click="goTags(subItem)"
       >{{subItem}}</span>
     </i>
-    <i class="iconfont  reco-category tags">
+    <!-- <i class="iconfont  reco-category tags">
       <span class="leancloud_visitors"  :id="$route.path"  :data-flag-title="$page.title">
         <span style="margin: 0;">阅读</span>
         <i class="leancloud-visitors-count">1</i>
       </span>
-    </i>
+    </i>-->
     <span class="pageFull" @click="full" v-if="fullShow && !fullStatus">全屏</span>
   </div>
 </template>
@@ -63,7 +63,7 @@ export default {
     fullShow() {
       const path = this.$route.path;
       return path !== "/" && !path.includes("category");
-    },
+    }
   },
   methods: {
     goTags(tag) {
@@ -78,12 +78,12 @@ export default {
     }
   },
   mounted() {
-      this.$bus.$on('openFull', () => {
+    this.$bus.$on("openFull", () => {
       this.fullStatus = true;
-    })
-    this.$bus.$on('closeFull', () => {
+    });
+    this.$bus.$on("closeFull", () => {
       this.fullStatus = false;
-    })
+    });
   }
 };
 </script>
