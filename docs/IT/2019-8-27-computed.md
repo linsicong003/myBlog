@@ -1,7 +1,7 @@
 ---
 title: 浅谈现实学习中的信息素养与计算思维
 # display: home
-image: https://raw.githubusercontent.com/linsicong003/blog-img/master/20190827-bg2.jpg
+image: https://blog-img-1252360401.cos.ap-guangzhou.myqcloud.com/20190827-bg2.jpg
 date: 2019-08-27
 sidebar: auto
 sidebarDepth: 2
@@ -23,7 +23,7 @@ categories:
 
 <!-- more -->
 
-![前言](https://raw.githubusercontent.com/linsicong003/blog-img/master/20190827-2.jpg)
+![前言](https://blog-img-1252360401.cos.ap-guangzhou.myqcloud.com/20190827-2.jpg)
 
 ## 概念定义
 
@@ -43,7 +43,7 @@ categories:
 
 从上面的例子可以看出，所谓信息素养其实就是内化外部信息的能力。
 
-![外卖](https://raw.githubusercontent.com/linsicong003/blog-img/master/20190827-1.jpg)
+![外卖](https://blog-img-1252360401.cos.ap-guangzhou.myqcloud.com/20190827-1.jpg)
 
 ### 计算思维的定义 :flags:
 
@@ -61,13 +61,13 @@ categories:
 
 这么一描述出来，可能很多文科生就能看出其中的精髓了，计算思维其实想要推崇的是一种类似计算机编程式的思考问题解决的方法。就像科学家为我们造出计算机来不是让我们拿计算机去再造计算机的（虽然也不是不行），而是要拿计算机本身来帮助其他领域的工作的。
 
-![乐于助人](https://raw.githubusercontent.com/linsicong003/blog-img/master/20190827-3.jpg)
+![乐于助人](https://blog-img-1252360401.cos.ap-guangzhou.myqcloud.com/20190827-3.jpg)
 
 ## 信息素养与计算思维的异同
 
 上面我们介绍了这两种概念分别代表的含义，因为他们存在交叉之处，所以常常被人拿出来进行比较评价，我们这里就来捋捋他们千丝万缕的联系。
 
-![真假之辨](https://raw.githubusercontent.com/linsicong003/blog-img/master/20190827-4.jpg)
+![真假之辨](https://blog-img-1252360401.cos.ap-guangzhou.myqcloud.com/20190827-4.jpg)
 
 ### 素养与思维之同 :flags:
 
@@ -87,7 +87,7 @@ categories:
 
 在信息素养的层面来说，如何在外卖APP 或者其他优惠网站上获取信息、货比三家这些都属于是信息素养在我们生活中的运用。本质上是信息的获取与加工的能力，同样的信息到了不同人的手上可能就会产生出不一样的结果，所以学习如何更科学的对信息进行加工是我们在信息时代下更好生活的一个重要的保障。
 
-![重复劳动](https://raw.githubusercontent.com/linsicong003/blog-img/master/20190827-5.jpg)
+![重复劳动](https://blog-img-1252360401.cos.ap-guangzhou.myqcloud.com/20190827-5.jpg)
 
 在计算思维的层面来说，就不是这么一回事了。在讨论这个问题前，我想先邀请大家来回答我一个问题，在我们生活经验中，计算机究竟在哪些方面比人类会做的更好？答案是一些重复繁琐或过度复杂的工作，那么了解计算机本身只使用01是如何处理复杂工作本身的这个思维就变得无比重要。回到我们点外卖的问题本身，点外卖并不是我们的目的，我们的目的很明显是吃到食物本身，那么针对这个目标我们可以分为这么几个阶段：
 
@@ -105,7 +105,7 @@ categories:
 
 在二十一世纪的今天，没有人敢对信息的重要性发出异议，但有许多人仍对计算思维的重要性一无所知，我们来看看运用好计算思维能帮助我们做什么。
 
-![编程思想](https://raw.githubusercontent.com/linsicong003/blog-img/master/20190827-6.jpg)
+![编程思想](https://blog-img-1252360401.cos.ap-guangzhou.myqcloud.com/20190827-6.jpg)
 
 ### 递归思想的运用 :flags:
 
@@ -145,7 +145,7 @@ for i of num {
 
 ### 函数思想的运用 :flags:
 
-![word](https://raw.githubusercontent.com/linsicong003/blog-img/master/20190827-7.jpg)
+![word](https://blog-img-1252360401.cos.ap-guangzhou.myqcloud.com/20190827-7.jpg)
 
 函数同样也是每门高级编程语言中必定会实现的一个功能，函数本身体现的是一种模块化、分而治之的思想。将一块单独的逻辑功能独立出来，能被多次重复调用以节省重复工作。
 
@@ -162,7 +162,7 @@ for i of num {
 
 ## 结语
 
-![结语](https://raw.githubusercontent.com/linsicong003/blog-img/master/20190827-8.jpg)
+![结语](https://blog-img-1252360401.cos.ap-guangzhou.myqcloud.com/20190827-8.jpg)
 
 新时代下对每个人对于信息的运用把控能力在不断的提高，同时计算思维的应用也得到了广泛的关注。如何能在信息时代抓住时代机遇，需要有发展的眼光看问题，从自身着手便是要从培养自己学习的能力开始。
 

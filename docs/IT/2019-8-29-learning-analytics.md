@@ -1,7 +1,7 @@
 ---
 title: 浅析学习分析
 # display: home
-image: https://raw.githubusercontent.com/linsicong003/blog-img/master/20190827-bg2.jpg
+image: https://blog-img-1252360401.cos.ap-guangzhou.myqcloud.com/20190827-bg2.jpg
 date: 2019-08-29
 sidebar: auto
 sidebarDepth: 2
@@ -22,7 +22,7 @@ categories:
 
 ## 前世今生
 
-![历史](https://raw.githubusercontent.com/linsicong003/blog-img/master/20190829-la-1.jpg)
+![历史](https://blog-img-1252360401.cos.ap-guangzhou.myqcloud.com/20190829-la-1.jpg)
 
 ### 发展历史 :flags:
 
@@ -40,7 +40,7 @@ categories:
 
 今天的教育技术实质上发展成为计算机科学、教育学以及传播学的交叉学科，研究任务的特殊性导致每一门学科的发展都会客观上推动教育技术研究的发展。学习分析是一门分析类学科，从名字上看计算机科学中有一个叫数据挖掘的方向仿佛跟其在做着类似的事情，那么能够运用于学习分析的工具有什么呢？
 
-![适用于分析的技术](https://raw.githubusercontent.com/linsicong003/blog-img/master/20190829-la-2.jpg)
+![适用于分析的技术](https://blog-img-1252360401.cos.ap-guangzhou.myqcloud.com/20190829-la-2.jpg)
 
 ### 机器学习技术（Machine Learning） :flags:
 
@@ -66,7 +66,7 @@ categories:
 
 转眼距离首次学习分析引起大家广泛关注已经过去了十年之久，那么在这段时间内有没有形成比较完整的理论体系以及相关的标准呢？
 
-![标准](https://raw.githubusercontent.com/linsicong003/blog-img/master/20190829-la-3.jpg)
+![标准](https://blog-img-1252360401.cos.ap-guangzhou.myqcloud.com/20190829-la-3.jpg)
 
 ### ADL-xAPI 标准 :flags:
 
@@ -94,7 +94,7 @@ ISO/IEC JTC1 SC36是国际标准化组织（ISO）和国际电工委员会（IEC
 
 ## 学习分析未来发展前景
 
-![未来的期望](https://raw.githubusercontent.com/linsicong003/blog-img/master/20190829-la-4.jpg)
+![未来的期望](https://blog-img-1252360401.cos.ap-guangzhou.myqcloud.com/20190829-la-4.jpg)
 
 ### 学习分析的作用期望 :flags:
 

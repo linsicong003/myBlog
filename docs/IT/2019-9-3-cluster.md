@@ -1,7 +1,7 @@
 ---
 title: 数据分析之聚类分析
 # display: home
-image: https://raw.githubusercontent.com/linsicong003/blog-img/master/20190903-bg.jpg
+image: https://blog-img-1252360401.cos.ap-guangzhou.myqcloud.com/20190903-bg.jpg
 date: 2019-09-03
 sidebar: auto
 sidebarDepth: 2
@@ -16,7 +16,7 @@ categories:
 
 聚类分析是我们在进行数据分析中经常需要用到的一种分析方法，常见的方法主要有系统聚类法(hclust)和快速聚类法(kmeans)两种。聚类算法本质上是将我们所取到的数据分群，主要用于研究样本的分类问题，用于找寻数据后面群体的共同特征以挖掘出更大的价值。
 
-![聚类分析样本](https://raw.githubusercontent.com/linsicong003/blog-img/master/20190903-1.jpg)
+![聚类分析样本](https://blog-img-1252360401.cos.ap-guangzhou.myqcloud.com/20190903-1.jpg)
 
 <!-- more -->
 
@@ -34,7 +34,7 @@ categories:
 
 我们这里不以具体算法作为讨论，只讨论系统聚类与非系统聚类（K均值聚类）两种情况。
 
-![算法选择](https://raw.githubusercontent.com/linsicong003/blog-img/master/20190903-4.jpg)
+![算法选择](https://blog-img-1252360401.cos.ap-guangzhou.myqcloud.com/20190903-4.jpg)
 
 ### 结果比较
 
@@ -76,7 +76,7 @@ categories:
 
 应该牢记的是我们的分析始终服务于我们的决策用途，视具体情况而定。
 
-![分析例子](https://raw.githubusercontent.com/linsicong003/blog-img/master/20190903-3.jpg)
+![分析例子](https://blog-img-1252360401.cos.ap-guangzhou.myqcloud.com/20190903-3.jpg)
 
 ## 聚类分析的实现
 
@@ -84,7 +84,7 @@ categories:
 
 ### 非系统聚类方法 :flags:
 
-[聚类分析方法实现](https://raw.githubusercontent.com/linsicong003/blog-img/master/)
+[聚类分析方法实现](https://blog-img-1252360401.cos.ap-guangzhou.myqcloud.com/)
 
 [聚类分析的SPSS实现](https://jingyan.baidu.com/article/2c8c281d9de97f0009252a61.html)
 

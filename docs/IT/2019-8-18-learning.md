@@ -1,7 +1,7 @@
 ---
 title: 浅析三种学习理论
 # display: home
-image: https://raw.githubusercontent.com/linsicong003/blog-img/master/20190818-bg.jpg
+image: https://blog-img-1252360401.cos.ap-guangzhou.myqcloud.com/20190818-bg.jpg
 date: 2019-08-18
 sidebar: auto
 sidebarDepth: 2
@@ -22,7 +22,7 @@ categories:
 
 ## 三大学习理论的前世今生 
 
-![学习理论](https://raw.githubusercontent.com/linsicong003/blog-img/master/20190818-1.jpg)
+![学习理论](https://blog-img-1252360401.cos.ap-guangzhou.myqcloud.com/20190818-1.jpg)
 
 ::: tip 说明
 三大学习理论并非诞生于同一时期，且建构主义是基于认知主义的基础上发展而来的。
@@ -36,7 +36,7 @@ categories:
 
 在生物学大发展的前提下，人们迫切想要找寻到人类自身的学习规律的真谛。
 
-![行为主义](https://raw.githubusercontent.com/linsicong003/blog-img/master/20190818-3.jpg)
+![行为主义](https://blog-img-1252360401.cos.ap-guangzhou.myqcloud.com/20190818-3.jpg)
 
 ### 斯金纳操作条件反射理论 :flags:
 
@@ -68,7 +68,7 @@ categories:
 
 从发展情况来看，认知主义阵营的研究与实践要比行为主义要多得多。
 
-![认知主义](https://raw.githubusercontent.com/linsicong003/blog-img/master/20190818-4.jpg)
+![认知主义](https://blog-img-1252360401.cos.ap-guangzhou.myqcloud.com/20190818-4.jpg)
 
 ### 布鲁纳认知结构学习理论 :flags:
 
@@ -86,7 +86,7 @@ categories:
 
 加涅认为人的认知过程是一个主动寻找信息、接受信息，并在一定的信息结构中进行加工的过程，创新性的将学习理论与长期记忆和短期记忆的概念相结合。
 
-![加涅的信息加工认知学习理论](https://raw.githubusercontent.com/linsicong003/blog-img/master/20190818-2png)
+![加涅的信息加工认知学习理论](https://blog-img-1252360401.cos.ap-guangzhou.myqcloud.com/20190818-2png)
 
 加涅理论形成于二十世纪五十年代后，彼时信息技术发展开始加速，科学家们得以借助计算机的力量对人的学习心理过程进行结构化的模型分析，加涅认为学习的典型模式是学习与记忆的信息加工模式。
 
@@ -102,7 +102,7 @@ categories:
 
 建构主义强调学习者的主动性，认为学习是学习者基于原有的知识经验生成意义、建构理解的过程，对改变传统教学模式，指导现代教学设计变革具有重要的价值。
 
-![建构主义](https://raw.githubusercontent.com/linsicong003/blog-img/master/20190818-5.jpg)
+![建构主义](https://blog-img-1252360401.cos.ap-guangzhou.myqcloud.com/20190818-5.jpg)
 
 理论认为学习是学习者主动建构内部心理结构的过程，不仅包括结构性的知识，也包括大量的非结构性的经验背景。
 
@@ -132,7 +132,7 @@ S: 刺激  A: 同化 T: 结构 R: 反应
 
 授课者对于课程的设计应总是以学习者为中心，将教学环境与实际情况相联系实行情景式教学。倡导合作学习，知识共享。
 
-![学习的启示](https://raw.githubusercontent.com/linsicong003/blog-img/master/20190818-6.jpg)
+![学习的启示](https://blog-img-1252360401.cos.ap-guangzhou.myqcloud.com/20190818-6.jpg)
 
 ## 结语 
 

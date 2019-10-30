@@ -2,7 +2,7 @@
 title: 每日练题导航页
 # display: home
 # image: https://raw.githubusercontent.com/linsicong003/blog-img/master/20190817-bg.jpg
-date: 2019-10-25
+date: 2019-10-30
 sidebar: auto
 sidebarDepth: 2
 tags: 
@@ -23,6 +23,7 @@ categories:
 
 ## 2019.10 :leopard:
 
+- [9、2019.10.30  :rocket: JavaScript中的Array](https://linsicong.com/DailyTest/2019-10-30-9.html)
 - [8、2019.10.29  :rocket: JavaScript中的发布订阅模式](https://linsicong.com/DailyTest/2019-10-29-8.html)
 - [7、2019.10.28  :rocket: JavaScript中深拷贝](https://linsicong.com/DailyTest/2019-10-28-7.html)
 - [6、2019.10.27  :rocket: JavaScript中的节流与防抖](https://linsicong.com/DailyTest/2019-10-27-6.html)

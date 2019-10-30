@@ -12,7 +12,7 @@ module.exports = {
     themeConfig: {
         author: 'Clancy Lin',
         type: 'blog',
-        logo: 'https://raw.githubusercontent.com/linsicong003/blog-img/master/logo.jpg',
+        logo: 'https://blog-img-1252360401.cos.ap-guangzhou.myqcloud.com/logo.jpg',
         background: 'image/background/4.jpg',
         lastUpdated: '最后更新',
         nav: [
