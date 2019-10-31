@@ -23,6 +23,7 @@ categories:
 
 ## 2019.10 :leopard:
 
+- [10、2019.10.31  :rocket: HTTP 协议面面观](https://linsicong.com/DailyTest/2019-10-31-10.html)
 - [9、2019.10.30  :rocket: JavaScript中的Array](https://linsicong.com/DailyTest/2019-10-30-9.html)
 - [8、2019.10.29  :rocket: JavaScript中的发布订阅模式](https://linsicong.com/DailyTest/2019-10-29-8.html)
 - [7、2019.10.28  :rocket: JavaScript中深拷贝](https://linsicong.com/DailyTest/2019-10-28-7.html)
