@@ -21,6 +21,9 @@ categories:
 
 <!-- more -->
 
+## 2019.11 :leopard:
+- [11、2019.11.1  :rocket: WEB 网络安全](https://linsicong.com/DailyTest/2019-11-1-11.html)
+
 ## 2019.10 :leopard:
 
 - [10、2019.10.31  :rocket: HTTP 协议面面观](https://linsicong.com/DailyTest/2019-10-31-10.html)
