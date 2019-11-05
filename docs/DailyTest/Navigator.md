@@ -2,7 +2,7 @@
 title: 每日练题导航页
 # display: home
 # image: https://raw.githubusercontent.com/linsicong003/blog-img/master/20190817-bg.jpg
-date: 2019-11-4
+date: 2019-11-5
 sidebar: auto
 sidebarDepth: 2
 tags: 
@@ -22,6 +22,7 @@ categories:
 <!-- more -->
 
 ## 2019.11 :leopard:
+- [14、2019.11.5  :rocket: 网络模型知多少](https://linsicong.com/DailyTest/2019-11-5-14.html)
 - [13、2019.11.4  :rocket: JavaScript中的大数加法](https://linsicong.com/DailyTest/2019-11-4-13.html)
 - [12、2019.11.2  :rocket: 数据结构](https://linsicong.com/DailyTest/2019-11-2-12.html)
 - [11、2019.11.1  :rocket: WEB 网络安全](https://linsicong.com/DailyTest/2019-11-1-11.html)
