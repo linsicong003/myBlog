@@ -22,7 +22,7 @@ categories:
 <!-- more -->
 
 ## 2019.11 :leopard:
-- [15、2019.11.7  :rocket: 简单排序算法1](https://linsicong.com/DailyTest/2019-11-7-16.html)
+- [16、2019.11.7  :rocket: 简单排序算法1](https://linsicong.com/DailyTest/2019-11-7-16.html)
 - [15、2019.11.6  :rocket: React Hook 入门](https://linsicong.com/DailyTest/2019-11-6-15.html)
 - [14、2019.11.5  :rocket: 网络模型知多少](https://linsicong.com/DailyTest/2019-11-5-14.html)
 - [13、2019.11.4  :rocket: JavaScript中的大数加法](https://linsicong.com/DailyTest/2019-11-4-13.html)
