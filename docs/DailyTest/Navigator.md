@@ -2,7 +2,7 @@
 title: 每日练题导航页
 # display: home
 # image: https://raw.githubusercontent.com/linsicong003/blog-img/master/20190817-bg.jpg
-date: 2019-11-8
+date: 2019-11-11
 sidebar: auto
 sidebarDepth: 2
 tags: 
@@ -22,6 +22,7 @@ categories:
 <!-- more -->
 
 ## 2019.11 :leopard:
+- [18、2019.11.8  :rocket: 简单排序算法3](https://linsicong.com/DailyTest/2019-11-11-18.html)
 - [17、2019.11.8  :rocket: 简单排序算法2](https://linsicong.com/DailyTest/2019-11-8-17.html)
 - [16、2019.11.7  :rocket: 简单排序算法1](https://linsicong.com/DailyTest/2019-11-7-16.html)
 - [15、2019.11.6  :rocket: React Hook 入门](https://linsicong.com/DailyTest/2019-11-6-15.html)
