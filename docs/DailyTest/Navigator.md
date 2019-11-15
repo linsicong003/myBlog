@@ -1,6 +1,6 @@
 ---
 title: 每日练题导航页
-date: 2019-11-14
+date: 2019-11-15
 sidebar: auto
 sidebarDepth: 2
 tags: 
@@ -20,6 +20,7 @@ categories:
 <!-- more -->
 
 ## 2019.11 :leopard:
+- [22、2019.11.15  :rocket: 按需加载](https://linsicong.com/DailyTest/2019-11-15-22.html)
 - [21、2019.11.14  :rocket: async/await](https://linsicong.com/DailyTest/2019-11-14-21.html)
 - [20、2019.11.13  :rocket: Promise](https://linsicong.com/DailyTest/2019-11-13-20.html)
 - [19、2019.11.12  :rocket: 迭代器函数](https://linsicong.com/DailyTest/2019-11-12-19.html)
