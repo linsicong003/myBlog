@@ -1,6 +1,6 @@
 ---
 title: 每日练题导航页
-date: 2019-11-20
+date: 2019-11-21
 sidebar: auto
 sidebarDepth: 2
 tags: 
@@ -20,6 +20,7 @@ categories:
 <!-- more -->
 
 ## 2019.11 :leopard:
+- [27、2019.11.21  :rocket: new操作符原理](https://linsicong.com/DailyTest/2019-11-21-27.html)
 - [26、2019.11.20  :rocket: 前端存储](https://linsicong.com/DailyTest/2019-11-20-26.html)
 - [25、2019.11.19  :rocket: 路由鉴权](https://linsicong.com/DailyTest/2019-11-19-25.html)
 - [24、2019.11.18  :rocket: 前端路由](https://linsicong.com/DailyTest/2019-11-18-24.html)
