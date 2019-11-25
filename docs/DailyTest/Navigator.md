@@ -1,6 +1,6 @@
 ---
 title: 每日练题导航页
-date: 2019-11-22
+date: 2019-11-25
 sidebar: auto
 sidebarDepth: 2
 tags: 
@@ -20,6 +20,7 @@ categories:
 <!-- more -->
 
 ## 2019.11 :leopard:
+- [29、2019.11.25  :rocket: Grid布局](https://linsicong.com/DailyTest/2019-11-25-29.html)
 - [28、2019.11.22  :rocket: JSON解析函数](https://linsicong.com/DailyTest/2019-11-22-28.html)
 - [27、2019.11.21  :rocket: new操作符原理](https://linsicong.com/DailyTest/2019-11-21-27.html)
 - [26、2019.11.20  :rocket: 前端存储](https://linsicong.com/DailyTest/2019-11-20-26.html)
