@@ -57,8 +57,8 @@ export default {
     align-items center
     animation enter .3s ease-out
 .v-preview 
-    max-width 80%
-    max-height 80%
+    max-width 100%
+    max-height 100%
 @keyframes enter {
     from { transform: scale(0.2);}
     to { transform: scale(1);}    

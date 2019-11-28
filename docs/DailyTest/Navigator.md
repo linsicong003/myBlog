@@ -20,6 +20,7 @@ categories:
 <!-- more -->
 
 ## 2019.11 :leopard:
+- [32、2019.11.28  :rocket: Webpack 生命周期](https://linsicong.com/DailyTest/2019-11-28-32.html)
 - [31、2019.11.27  :rocket: Webpack 基础知识](https://linsicong.com/DailyTest/2019-11-27-31.html)
 - [30、2019.11.26  :rocket: 日期处理](https://linsicong.com/DailyTest/2019-11-26-30.html)
 - [29、2019.11.25  :rocket: Grid布局](https://linsicong.com/DailyTest/2019-11-25-29.html)
