@@ -1,6 +1,6 @@
 ---
 title: 每日练题导航页
-date: 2019-11-30
+date: 2019-12-2
 sidebar: auto
 sidebarDepth: 2
 tags: 
@@ -18,6 +18,8 @@ categories:
 您现在的位置是导航页 :mega:
 
 <!-- more -->
+## 2019.11 :leopard:
+- [35、2019.12.2  :rocket: HTTP 缓存策略](https://linsicong.com/DailyTest/2019-12-2-35.html)
 
 ## 2019.11 :leopard:
 - [34、2019.11.30  :rocket: 函数的 arguments](https://linsicong.com/DailyTest/2019-11-30-34.html)
