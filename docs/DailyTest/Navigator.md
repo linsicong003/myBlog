@@ -1,6 +1,6 @@
 ---
 title: 每日练题导航页
-date: 2019-12-2
+date: 2019-12-3
 sidebar: auto
 sidebarDepth: 2
 tags: 
@@ -19,6 +19,7 @@ categories:
 
 <!-- more -->
 ## 2019.11 :leopard:
+- [36、2019.12.3  :rocket: JS中的高阶函数](https://linsicong.com/DailyTest/2019-12-3-36.html)
 - [35、2019.12.2  :rocket: HTTP 缓存策略](https://linsicong.com/DailyTest/2019-12-2-35.html)
 
 ## 2019.11 :leopard:
