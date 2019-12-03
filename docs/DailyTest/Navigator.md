@@ -18,7 +18,7 @@ categories:
 您现在的位置是导航页 :mega:
 
 <!-- more -->
-## 2019.11 :leopard:
+## 2019.12 :leopard:
 - [36、2019.12.3  :rocket: JS中的高阶函数](https://linsicong.com/DailyTest/2019-12-3-36.html)
 - [35、2019.12.2  :rocket: HTTP 缓存策略](https://linsicong.com/DailyTest/2019-12-2-35.html)
 
