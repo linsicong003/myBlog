@@ -1,6 +1,6 @@
 ---
 title: 每日练题导航页
-date: 2019-12-5
+date: 2019-12-6
 sidebar: auto
 sidebarDepth: 2
 tags: 
@@ -19,6 +19,7 @@ categories:
 
 <!-- more -->
 ## 2019.12 :leopard:
+- [39、2019.12.6  :rocket: V8 执行原理](https://linsicong.com/DailyTest/2019-12-6-39.html)
 - [38、2019.12.5  :rocket: V8 垃圾回收机制](https://linsicong.com/DailyTest/2019-12-5-38.html)
 - [37、2019.12.4  :rocket: 字符串解构](https://linsicong.com/DailyTest/2019-12-4-37.html)
 - [36、2019.12.3  :rocket: JS中的高阶函数](https://linsicong.com/DailyTest/2019-12-3-36.html)
