@@ -13,8 +13,7 @@ export default {
       return `background: url('${this.$frontmatter.image ||
         this.$themeConfig.background}')`;
     }
-  },
-  mounted() {}
+  }
 };
 </script>
 

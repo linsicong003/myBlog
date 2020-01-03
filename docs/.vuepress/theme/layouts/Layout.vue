@@ -1,5 +1,5 @@
 <template>
-  <div @touchend="onTouchEnd">
+  <div @touchend="onTouchEnd" @touchstart="onTouchStart">
     <LayOutBackground />
     <Common class="common" ref="nowContent" :isComment="true">
       <Home v-if="$frontmatter.home && $themeConfig.type !== 'blog'" />
@@ -57,6 +57,13 @@ export default {
     toggleSidebar(to) {
       this.$refs.nowContent.isSidebarOpen =
         typeof to === "boolean" ? to : !this.isSidebarOpen;
+    },
+    // side swipe
+    onTouchStart(e) {
+      this.touchStart = {
+        x: e.changedTouches[0].clientX,
+        y: e.changedTouches[0].clientY
+      };
     },
     onTouchEnd(e) {
       const dx = e.changedTouches[0].clientX - this.touchStart.x;

@@ -59,28 +59,26 @@
     <!-- <Content class="home-center" custom /> -->
 
     <div class="footer">
-      <span>
-        <i class="iconfont reco-github"></i>
-        <a target="blank" href="https://github.com/linsicong003">Github</a>
-      </span>
-      <span v-if="$themeConfig.record">
-        <i class="iconfont reco-beian"></i>
-        <a>{{ $themeConfig.record }}</a>
-      </span>
-      <span>
+      <p class="name">
         <span v-if="$themeConfig.author || $site.title">{{ $themeConfig.author || $site.title }}</span>
-        <i class="iconfont reco-copyright copyright"></i>
-        <a href="http://www.beian.miit.gov.cn">粤ICP备17074488号</a>
-        <!-- 
-        <a>
-          <span v-if="$themeConfig.startYear">{{ $themeConfig.startYear }} -</span>
-          {{ year }}
-          &nbsp;&nbsp;
-        </a>-->
-      </span>
-      <span>
-        <AccessNumber idVal="/"></AccessNumber>
-      </span>
+      </p>
+      <p class="info">
+        <span>
+          <i class="iconfont reco-github"></i>
+          <a target="blank" href="https://github.com/linsicong003">Github</a>
+        </span>
+        <span v-if="$themeConfig.record">
+          <i class="iconfont reco-beian"></i>
+          <a>{{ $themeConfig.record }}</a>
+        </span>
+        <span>
+          <i class="iconfont reco-copyright copyright"></i>
+          <a href="http://www.beian.miit.gov.cn">粤ICP备17074488号</a>
+        </span>
+        <span>
+          <AccessNumber idVal="/"></AccessNumber>
+        </span>
+      </p>
     </div>
   </div>
 </template>
@@ -367,18 +365,20 @@ export default {
     border-top: 1px solid $borderColor;
     text-align: center;
     color: lighten($textColor, 25%);
-
-    > span {
-      margin-left: 1rem;
-
-      > i {
-        margin-right: 0.5rem;
+    > p {
+      margin: 0 0 0.5rem 0;
+    }
+    .name {
+      text-align: center;
+    }
+    .info {
+      box-sizing: border-box;
+      padding-left: 2rem;
+      > span {
+        margin-left: 0.5rem;
       }
     }
 
-    .copyright {
-      margin-left: 1rem;
-    }
   }
 }
 

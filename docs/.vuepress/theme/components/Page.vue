@@ -143,8 +143,8 @@ export default {
     let content = document.querySelector(".content__default");
     content &&
       content.addEventListener("click", e => {
-        console.log(e);
         const tagName = e.target.localName;
+        if (tagName !== 'img') return;
         const src = e.target.attributes["src"].value;
         const alt = e.target.attributes["alt"].value;
         tagName === "img" && this.$preview({ src, alt });

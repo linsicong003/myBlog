@@ -1,5 +1,11 @@
 <template>
   <div class="valine-wrapper" v-show="isShowComment">
+    <!-- id 将作为查询条件 -->
+    <!-- <span :id="`${$page.path}`" class="leancloud_visitors" :data-flag-title="$page.title">
+        <span class="post-meta-item-text">这篇文章有</span>
+        <i class="leancloud-visitors-count">100</i>
+        <span class="post-meta-item-text">人已经看过啦~</span>
+    </span> -->
     <div id="valine"></div>
   </div>
 </template>
@@ -20,9 +26,11 @@ export default {
   },
   mounted: function() {
     this.createValine();
+    
   },
   methods: {
     createValine() {
+      
       const valineConfig = this.$themeConfig.valineConfig;
       const Valine = require("valine");
       const AV = require("leancloud-storage");
@@ -30,30 +38,18 @@ export default {
         this.window = window;
         window.AV = AV;
       }
-
-      // new Valine({
-      //   el: '#valine' ,
-      //   appId: valineConfig.appId,// your appId
-      //   appKey: valineConfig.appKey, // your appKey
-      //   placeholder: valineConfig.placeholder || 'just go go',
-      //   notify: valineConfig.notify || false,
-      //   verify: valineConfig.verify || false,
-      //   avatar: valineConfig.avatar || 'retro',
-      //   visitor: valineConfig.visitor || true,
-      //   recordIP: valineConfig.recordIP || false,
-      //   path: window.location.pathname
-      // });
       new Valine({
         el: "#valine",
         appId: "XgWjiYk99zvjMD61v1b89VNg-gzGzoHsz", // your appId
         appKey: "K2FxqHftdXNOR8HUF4HmGfOv", // your appKey
-        placeholder: "说点什么吧~",
+        placeholder: "评论前先在上面留下大名哦~",
         notify: false,
         verify: false,
         avatar: "robohash",
         visitor: true,
-        recordIP: false,
-        path: window.location.pathname
+        recordIP: true,
+        path: window.location.pathname,
+        visitor: true
       });
     }
   },
@@ -77,6 +73,16 @@ export default {
     padding-left: 0;
   }
 }
+.leancloud_visitors {
+  width: 100%;
+  display: inline-block;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 1rem 1rem 0;
+  text-align: center;
+  color: #666;
+  font-size: 0.8rem;
+  }
 
 .valine-wrapper {
   background-color: #fff;
