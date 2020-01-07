@@ -1,6 +1,6 @@
 ---
 title: 每日练题导航页
-date: 2019-12-9
+date: 2020-01-07
 sidebar: auto
 sidebarDepth: 2
 tags: 
@@ -18,7 +18,10 @@ categories:
 您现在的位置是导航页 :mega:
 
 <!-- more -->
+## 2020.01 :leopard:
+- [42、2020.1.7  :rocket: 单点登录](https://linsicong.com/DailyTest/2020-1-7-42.html)
 ## 2019.12 :leopard:
+- [41、2019.12.11  :rocket: JS的模块化](https://linsicong.com/DailyTest/2019-12-11-41.html)
 - [40、2019.12.9  :rocket: SSR 相关知识](https://linsicong.com/DailyTest/2019-12-9-40.html)
 - [39、2019.12.6  :rocket: V8 执行原理](https://linsicong.com/DailyTest/2019-12-6-39.html)
 - [38、2019.12.5  :rocket: V8 垃圾回收机制](https://linsicong.com/DailyTest/2019-12-5-38.html)
