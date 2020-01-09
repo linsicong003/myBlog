@@ -1,6 +1,6 @@
 ---
 title: 每日练题导航页
-date: 2020-01-07
+date: 2020-01-09
 sidebar: auto
 sidebarDepth: 2
 tags: 
@@ -19,7 +19,8 @@ categories:
 
 <!-- more -->
 ## 2020.01 :leopard:
-- [42、2020.1.7  :rocket: 单点登录](https://linsicong.com/DailyTest/2020-1-7-42.html)
+- [43、2020.1.9  :rocket: 算法：寻找两个有序数组的中位数](https://linsicong.com/DailyTest/2020-1-9-43.html)
+- [42、2020.1.7  :rocket: 算法：寻找最长子串](https://linsicong.com/DailyTest/2020-1-7-42.html)
 ## 2019.12 :leopard:
 - [41、2019.12.11  :rocket: JS的模块化](https://linsicong.com/DailyTest/2019-12-11-41.html)
 - [40、2019.12.9  :rocket: SSR 相关知识](https://linsicong.com/DailyTest/2019-12-9-40.html)
