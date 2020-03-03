@@ -10,7 +10,7 @@
       @touchend="onTouchEnd"
     >
       <Password v-if="!isHasKey"></Password>
-      <div class="common" v-else>
+      <div class="common-content" id="mainContent" v-else>
         <div class="sidebar-mask" @click="toggleSidebar(false)"></div>
 
         <Sidebar
@@ -102,7 +102,6 @@ export default {
       ];
     }
   },
-
   mounted() {
     this.$router.afterEach(() => {
       this.isSidebarOpen = false;

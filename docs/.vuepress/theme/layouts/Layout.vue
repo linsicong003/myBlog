@@ -2,12 +2,14 @@
   <div @touchend="onTouchEnd" @touchstart="onTouchStart">
     <LayOutBackground />
     <Common class="common" ref="nowContent" :isComment="true">
-      <Home v-if="$frontmatter.home && $themeConfig.type !== 'blog'" />
-      <HomeBlog v-else-if="$frontmatter.home && $themeConfig.type === 'blog'" />
-      <Page v-else :sidebar-items="sidebarItems">
-        <slot name="page-top" slot="top" />
-        <slot name="page-bottom" slot="bottom" />
-      </Page>
+      <div>
+        <Home v-if="$frontmatter.home && $themeConfig.type !== 'blog'" />
+        <HomeBlog v-else-if="$frontmatter.home && $themeConfig.type === 'blog'" />
+        <Page v-else :sidebar-items="sidebarItems">
+          <slot name="page-top" slot="top" />
+          <slot name="page-bottom" slot="bottom" />
+        </Page>
+      </div>
     </Common>
   </div>
 </template>

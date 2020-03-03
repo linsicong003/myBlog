@@ -55,7 +55,6 @@ module.exports = {
         }
     },
     plugins: [
-        ['reading-progress'],
         ['seo'],
         ['@vuepress/active-header-links'],
         [
