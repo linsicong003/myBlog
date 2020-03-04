@@ -129,7 +129,7 @@ categories:
 
 下面是使用贪心算法通过的用时：
 
-![[贪心算法解决#55用时](https://blog-img-1252360401.cos.ap-guangzhou.myqcloud.com/20200303-1.png)
+![贪心算法解决#55用时](https://blog-img-1252360401.cos.ap-guangzhou.myqcloud.com/20200303-1.png)
 
 聪明的你能写出这个算法吗？
 
