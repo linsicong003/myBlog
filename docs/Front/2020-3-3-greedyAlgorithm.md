@@ -11,7 +11,7 @@ categories:
 
 ## 前言
 
-贪心算法是集中常用的基础算法思想之一，
+贪心算法是平时常用的基础算法思想之一，
 
 即便你不知道它的定义是什么，
 
@@ -129,7 +129,7 @@ categories:
 
 下面是使用贪心算法通过的用时：
 
-![贪心算法解决#55用时](https://blog-img-1252360401.cos.ap-guangzhou.myqcloud.com/20200303-5.png)
+![[贪心算法解决#55用时](https://blog-img-1252360401.cos.ap-guangzhou.myqcloud.com/20200303-1.png)
 
 聪明的你能写出这个算法吗？
 
