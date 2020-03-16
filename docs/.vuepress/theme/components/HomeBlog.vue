@@ -496,8 +496,10 @@ export default {
     }
   }
 
-  .footer {
+  .home-blog .footer {
     text-align: left !important;
+    box-sizing: border-box;
+    padding-bottom: 100px;
 
     > span {
       display: block;

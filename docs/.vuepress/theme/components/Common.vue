@@ -185,3 +185,9 @@ export default {
   }
 };
 </script>
+<style>
+.common-content {
+  width: 100vw;
+  background: #fff;
+}
+</style>
