@@ -4,7 +4,7 @@ date: 2020-3-3
 sidebar: auto
 sidebarDepth: 2
 tags: 
-  - 贪心算法
+  - 算法
 categories:
   - Front
 ---
