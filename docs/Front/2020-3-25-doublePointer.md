@@ -150,6 +150,163 @@ var reverseVowels = function(s) {
     return arr.join('')
 };
 ```
+### 回文字符串 :flags: 
+
+这里找了一道在验证回文串的基础上，
+
+做了一点简易变形的题目：
+
+![leetcode#680](https://blog-img-1252360401.cos.ap-guangzhou.myqcloud.com/20200323-4.png)
+
+[leetcode#680](https://leetcode-cn.com/problems/valid-palindrome-ii/description/)
+
+处理这个问题的关键是在常规验证回文字符串时，
+
+若遇到第一个不符合回文的情况可以尝试删除一个字符，
+
+需要注意的是这里可以从左边删除也可以从右边。
+
+``` javascript
+// 答案来源 Luke Hu 发布的题解
+/**
+ * @param {string} s
+ * @return {boolean}
+ */
+var validPalindrome = function(s, flag = true) {
+    let l = 0, r = s.length - 1;
+    while (l < r && s[l] === s[r]) l++, r--;
+    if (r <= l) return true;
+    if (flag == true) return validPalindrome(s.slice(l, r), false) || validPalindrome(s.slice(l + 1, r + 1), false)
+    return false;
+};
+```
+### 归并两个有序数组 :flags:
+
+同样的这也是一道非常经典的数组合并问题;
+
+![leetcode#88](https://blog-img-1252360401.cos.ap-guangzhou.myqcloud.com/20200325-5.png)
+
+``` javascript
+// 答案来源 灵魂画手 发布的题解
+/**
+ * @param {number[]} nums1
+ * @param {number} m
+ * @param {number[]} nums2
+ * @param {number} n
+ * @return {void} Do not return anything, modify nums1 in-place instead.
+ */
+var merge = function(nums1, m, nums2, n) {
+    let len1 = m - 1;
+    let len2 = n - 1;
+    let len = m + n - 1;
+    while(len1 >= 0 && len2 >= 0) {
+        // 注意--符号在后面，表示先进行计算再减1，这种缩写缩短了代码
+        nums1[len--] = nums1[len1] > nums2[len2] ? nums1[len1--] : nums2[len2--];
+    }
+    function arrayCopy(src, srcIndex, dest, destIndex, length) {
+        dest.splice(destIndex, length, ...src.slice(srcIndex, srcIndex + length));
+    }
+    // 表示将nums2数组从下标0位置开始，拷贝到nums1数组中，从下标0位置开始，长度为len2+1
+    arrayCopy(nums2, 0, nums1, 0, len2 + 1);
+};
+```
+
+### 判断链表是否存在环 :flags:
+
+这道题非常有趣，
+
+还存在很多其他解法，感兴趣的同学可以自己研究一下。 :smirk:
+
+![leetcode#141](https://blog-img-1252360401.cos.ap-guangzhou.myqcloud.com/20200323-6.png)
+
+[leetcode#141](https://leetcode-cn.com/problems/linked-list-cycle/)
+
+``` javascript
+// 答案来源 秦时明月 发布的题解
+/**
+ * Definition for singly-linked list.
+ * function ListNode(val) {
+ *     this.val = val;
+ *     this.next = null;
+ * }
+ */
+
+/**
+ * @param {ListNode} head
+ * @return {boolean}
+ */
+var hasCycle = function(head) {
+    if(!head || !head.next) return false;
+    let fast = head.next;
+    let slow = head;
+    while(fast != slow){
+        if(!fast || !fast.next){
+            return false;
+        }
+        fast = fast.next.next;
+        slow = slow.next;
+    }
+    return true;
+};
+```
+### 找出最长子序列 :flags:
+
+![leetcode#524](https://blog-img-1252360401.cos.ap-guangzhou.myqcloud.com/20200325-6.png)
+
+[leetcode#524](https://leetcode-cn.com/problems/longest-word-in-dictionary-through-deleting/description/)
+
+找出最长子序列的题目从来都不是简单的题目，
+
+这里的思想需要我们好好思考消化。
+
+``` javascript
+// 答案来源 Ahian 发布的题解
+
+/**
+ * @param {string} s
+ * @param {string[]} d
+ * @return {string}
+ */
+var findLongestWord = function(s, d) {
+    // 先将数组按字典序排
+    d = d.sort();
+    let index=0,maxWord = '';
+    // 遍历数组
+    while(index<d.length){
+        nowComparing = d[index];
+        if(nowComparing.length>maxWord.length){
+            // 如果正在对比的word 要比之前的长
+            if(isSub(s,nowComparing)){
+                maxWord = nowComparing;
+            }
+        }
+        ++index;
+
+    }
+    return maxWord;
+};
+const isSub = function(s,key){
+    let k=0,i_s=0;
+    while(k<key.length){
+        // 短字符的每一位都要在长的里
+        if(i_s>s.length){
+            return false;
+        }
+        if(s[i_s]==key[k]){
+            ++k;
+        }
+        ++i_s;
+    }
+    return true
+}
+```
+## 小结
+
+`双指针` 在我们日常应用中十分常见，
+
+无论使用的语言有没有“指针”，
+
+这种解决问题的思想都是我们需要掌握的。 :smile:
 
 ## 参考资料
 
