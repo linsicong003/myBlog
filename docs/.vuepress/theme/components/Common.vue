@@ -9,14 +9,14 @@
       @touchstart="onTouchStart"
       @touchend="onTouchEnd"
     >
+      <AboutMe v-if="isAboutMe"/>
       <Password v-if="!isHasKey"></Password>
       <div class="common-content" id="mainContent" v-else>
         <div class="sidebar-mask" @click="toggleSidebar(false)"></div>
-
         <Sidebar
           :items="sidebarItems"
           @toggle-sidebar="toggleSidebar"
-          v-if="!$route.path.includes('timeLine')"
+          v-if="!$route.path.includes('timeLine') && !isAboutMe"
         >
           <slot name="sidebar-top" slot="top" />
           <slot name="sidebar-bottom" slot="bottom" />
@@ -25,7 +25,7 @@
         <Password v-if="!isHasPageKey" :isPage="true"></Password>
         <div :class="{'category': $route.path.includes('category')}" v-else>
           <slot></slot>
-          <Valine :isComment="isComment"></Valine>
+          <Valine :isComment="isComment" v-if="!isAboutMe"></Valine>
         </div>
       </div>
     </div>
@@ -39,9 +39,11 @@ import { resolveSidebarItems } from "../util";
 import Password from "@theme/components/Password";
 import Valine from "@theme/components/Valine/";
 import BackToTop from "@theme/components/BackToTop";
+import AboutMe from "@theme/components/AboutMe"
+
 
 export default {
-  components: { Sidebar, Navbar, Password, Valine, BackToTop },
+  components: { Sidebar, Navbar, Password, Valine, BackToTop, AboutMe },
 
   props: ["sidebar", "isComment"],
 
@@ -56,6 +58,9 @@ export default {
   },
 
   computed: {
+    isAboutMe() {
+      return this.$route.path.includes('/AboutMe')
+    },
     shouldShowNavbar() {
       const { themeConfig } = this.$site;
       const { frontmatter } = this.$page;

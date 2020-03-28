@@ -23,15 +23,11 @@ module.exports = {
                     { text: '前端基础', link: '/category/Front/' },
                     { text: 'TypeScript', link: '/category/TS/' },
                     { text: '杂谈', link: '/category/Comment/' },
+                    { text: '练题笔记', link: '/DailyTest/Navigator' },
                 ]
             },
-            { text: '练题笔记', link: '/DailyTest/Navigator', icon: 'reco-three' },
-            { text: '时光机', link: '/timeLine', icon: 'reco-npm' },
-            {
-                text: '关于', icon: 'reco-other', items: [
-                    { text: '关于我', link: '/category/About/' },
-                ]
-            }
+            { text: '时光机', link: '/timeLine', icon: 'reco-three' },
+            { text: '关于我', link: '/AboutMe', icon: 'reco-other' },
         ],
         sidebar: [
             '/'

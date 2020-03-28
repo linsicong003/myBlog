@@ -2,7 +2,7 @@
   <main class="page" :class="recoShow?'reco-show': 'reco-hide'">
     <slot name="top" />
 
-    <div class="page-title" v-if="!(isTimeLine)">
+    <div class="page-title" v-if="!isTimeLine && !isAboutMe">
       <h1>{{$page.title}}</h1>
       <hr />
       <PageInfo :pageInfo="$page"></PageInfo>
@@ -10,23 +10,14 @@
 
     <Content />
 
-    <TimeLine v-if="isTimeLine"></TimeLine>
+    <TimeLine v-if="isTimeLine" />
 
-    <footer class="page-edit" v-if="!isTimeLine">
+    <footer class="page-edit" v-if="!isTimeLine && !isAboutMe">
       <div class="edit-link" v-if="editLink">
         <a :href="editLink" target="_blank" rel="noopener noreferrer">{{ editLinkText }}</a>
         <OutboundLink />
       </div>
 
-      <!-- <div class="author-text">
-        <span class="prefix">作者：</span>
-        <span class="name">{{ $themeConfig.author }}</span>
-      </div>
-
-      <div class="last-updated" v-if="lastUpdated">
-        <span class="prefix">{{ lastUpdatedText }}：</span>
-        <span class="time">{{ lastUpdated }}</span>
-      </div>-->
     </footer>
 
     <div class="page-nav" v-if="prev || next">
@@ -67,6 +58,9 @@ export default {
     isTimeLine() {
       // return this.$frontmatter.isTimeLine;
       return this.$route.path.includes("/timeLine");
+    },
+    isAboutMe() {
+      return this.$route.path.includes("/AboutMe")
     },
     lastUpdated() {
       return new Date(
