@@ -2,89 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d84479e2-5614-409c-a3ca-738b2c3b7267" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/DailyTest/2019-10-22-1.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/DailyTest/2019-10-22-1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/DailyTest/2019-10-23-2.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/DailyTest/2019-10-23-2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/DailyTest/2019-10-24-3.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/DailyTest/2019-10-24-3.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/DailyTest/2019-10-25-4.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/DailyTest/2019-10-25-4.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/DailyTest/2019-10-26-5.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/DailyTest/2019-10-26-5.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/DailyTest/2019-10-27-6.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/DailyTest/2019-10-27-6.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/DailyTest/2019-10-28-7.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/DailyTest/2019-10-28-7.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/DailyTest/2019-10-29-8.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/DailyTest/2019-10-29-8.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/DailyTest/Navigator.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/DailyTest/Navigator.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Front/2019-8-15-input.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Front/2019-8-15-input.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Front/2019-8-29-binding.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Front/2019-8-29-binding.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Front/2019-9-23-babel.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Front/2019-9-23-babel.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Front/2019-9-7-myVue.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Front/2019-9-7-myVue.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/IT/2019-10-2-horizon.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/IT/2019-10-2-horizon.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/IT/2019-10-20-media.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/IT/2019-10-20-media.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/IT/2019-8-16-tower.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/IT/2019-8-16-tower.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/IT/2019-8-18-learning.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/IT/2019-8-18-learning.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/IT/2019-8-19-spread.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/IT/2019-8-19-spread.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/IT/2019-8-21-theory.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/IT/2019-8-21-theory.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/IT/2019-8-22-ip.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/IT/2019-8-22-ip.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/IT/2019-8-27-computed.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/IT/2019-8-27-computed.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/IT/2019-8-29-learning-analytics.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/IT/2019-8-29-learning-analytics.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/IT/2019-9-13-game.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/IT/2019-9-13-game.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/IT/2019-9-2-docker.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/IT/2019-9-2-docker.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/IT/2019-9-3-cluster.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/IT/2019-9-3-cluster.md" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/.tmp/" />
-    <ignored path="$PROJECT_DIR$/temp/" />
-    <ignored path="$PROJECT_DIR$/tmp/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/.vuepress/theme/components/Home.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="111" column="11" selection-start-line="111" selection-start-column="11" selection-end-line="111" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/TS/2019-8-3-introduce.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="414">
-                <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
-                <folding>
-                  <element signature="n#!!doc" expanded="true" />
-                  <element signature="n#!!doc" expanded="true" />
-                </folding>
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/docs/IT/2019-8-16-tower.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="180">
-                <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/.vuepress/theme/components/HomeBlog.vue">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -100,54 +23,16 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/docs/.vuepress/theme/components/Home.vue" />
-        <option value="$PROJECT_DIR$/docs/IT/2019-8-16-tower.md" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="myBlog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myBlog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myBlog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myBlog" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myBlog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myBlog" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name=".vuepress" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myBlog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myBlog" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="IT" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectId" id="1ZvJZ0GrNQmXzzjgIqRwpgweigf" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -158,15 +43,15 @@
     <property name="prettierjs.PrettierConfiguration.Package" value="E:\newBlog\node_modules\prettier" />
     <property name="settings.editor.selected.configurable" value="copyright.filetypes.TypeScript JSX" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="ServiceViewManager">
+    <option name="viewStates">
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
       </list>
     </option>
   </component>
@@ -182,73 +67,11 @@
       <updated>1565233623756</updated>
       <workItem from="1565233625178" duration="109000" />
       <workItem from="1572399811453" duration="449000" />
+      <workItem from="1585713699041" duration="51000" />
     </task>
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="558000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1874" height="1096" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13235295" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="npm" order="2" side_tool="true" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32936078" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/docs/.vuepress/theme/components/Home.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="111" column="11" selection-start-line="111" selection-start-column="11" selection-end-line="111" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/.vuepress/theme/components/HomeBlog.vue">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/TS/2019-8-3-introduce.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="414">
-            <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
-            <folding>
-              <element signature="n#!!doc" expanded="true" />
-              <element signature="n#!!doc" expanded="true" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/IT/2019-8-16-tower.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="180">
-            <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>
