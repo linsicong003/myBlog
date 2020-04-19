@@ -17,7 +17,7 @@ module.exports = {
         lastUpdated: '最后更新',
         nav: [
             { text: '首页', link: '/', icon: 'reco-gitlab' },
-            { text: '教育技术', link: '/category/IT/', icon: 'reco-eye' },
+            { text: '教育技术', link: '/category/ET/', icon: 'reco-eye' },
             {
                 text: '前端', icon: 'reco-api', items: [
                     { text: '前端基础', link: '/category/Front/' },
