@@ -98,6 +98,7 @@ export default {
       const userPageClass = this.$frontmatter.pageClass;
       return [
         {
+          'full-screen': this.$route.path.includes('/tag/'),
           "no-navbar": !this.shouldShowNavbar,
           "sidebar-open": this.isSidebarOpen,
           "no-sidebar": !this.shouldShowSidebar,

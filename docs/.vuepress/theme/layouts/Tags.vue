@@ -1,26 +1,28 @@
 <template>
-  <div class="tags-wrapper" :class="recoShow?'reco-show': 'reco-hide'">
-    <Common :sidebar="false" :isComment="false"></Common>
-    <div class="tags">
-      <span 
-        v-for="(item, index) in tags" 
-        :key="index"
-        :class="{'active': item.name == currentTag}"
-        :style="{ 'backgroundColor': item.color }"
-        @click="getPagesByTags(item.name)">{{item.name}}</span>
+  <div class="main-tag-wrapper" ref="mainTag">  
+    <div class="tags-wrapper" :class="recoShow?'reco-show': 'reco-hide'">
+      <Common :sidebar="false" :isComment="false"></Common>
+      <div class="tags">
+        <span 
+          v-for="(item, index) in tags" 
+          :key="index"
+          :class="{'active': item.name == currentTag}"
+          :style="{ 'backgroundColor': item.color }"
+          @click="getPagesByTags(item.name)">{{item.name}}</span>
+      </div>
+      <note-abstract 
+        class="list"
+        :data="posts"
+        :currentPage="currentPage"
+        :currentTag="currentTag"
+        @currentTag="getCurrentTag"></note-abstract>
+      
+      <pagation 
+        class="pagation"
+        :data="posts"
+        :currentPage="currentPage"
+        @getCurrentPage="getCurrentPage"></pagation>
     </div>
-    <note-abstract 
-      class="list"
-      :data="posts"
-      :currentPage="currentPage"
-      :currentTag="currentTag"
-      @currentTag="getCurrentTag"></note-abstract>
-    
-    <pagation 
-      class="pagation"
-      :data="posts"
-      :currentPage="currentPage"
-      @getCurrentPage="getCurrentPage"></pagation>
   </div>
 </template>
 
@@ -85,6 +87,7 @@ export default {
     getCurrentPage (page) {
       this.currentPage = page
       this.$page.currentPage = page
+      this.$refs.mainTag && (this.$refs.mainTag.scrollTop = 0)    
     },
 
     _tagColor () {
@@ -106,6 +109,11 @@ export default {
 
 <style lang="stylus" scoped>
 @require '../styles/loadMixin.styl'
+.main-tag-wrapper /deep/
+  height: 100vh;
+  overflow: auto;
+  .theme-container 
+    height: 10vh;
 .tags-wrapper
   max-width: 740px;
   margin: 0 auto;

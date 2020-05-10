@@ -101,7 +101,7 @@ export default {
     },
     emit (id) {
       this.$emit('getCurrentPage', id)
-    }
+    },
   }, 
 };
 </script>
