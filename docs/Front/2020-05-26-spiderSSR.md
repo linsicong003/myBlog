@@ -1,5 +1,5 @@
 ---
-title: 使用 Node 写一个爬虫-后端渲染网页
+title: 使用 Node 写一个爬虫(爬SSR)
 date: 2020-05-26
 sidebar: auto
 sidebarDepth: 2
@@ -38,9 +38,9 @@ categories:
 
 一番查找下来，最后确定了要用的工具库如下：
 
-- (axios)[https://github.com/axios/axios]：请求库，这里用来请求页面代码
-- (cheerio)[https://github.com/cheeriojs/cheerio]：操作库，使用jq的方式来操作字符串
-- (nodemailer)[https://github.com/nodemailer/nodemailer]：发送邮件
+- [axios](https://github.com/axios/axios)：请求库，这里用来请求页面代码
+- [cheerio](https://github.com/cheeriojs/cheerio)：操作库，使用jq的方式来操作字符串
+- [nodemailer](https://github.com/nodemailer/nodemailer)：发送邮件
 
 准备好了要用的工具之后，就可以愉快的开始爬虫之旅啦~
 
@@ -213,7 +213,7 @@ if (timestamp - lastCheck > 24 * 60 * 60 * 1000) {
     lastCheck = timestamp
     mail(`${moment().format('MMMM Do YYYY, h:mm:ss a')}服务状态检查`, `服务还活着`)
 }
-```
+```   
 把它传到服务器上直接跑，发现已经在监听啦~
 
 ## 小结
