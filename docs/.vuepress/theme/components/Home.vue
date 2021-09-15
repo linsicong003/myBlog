@@ -36,7 +36,7 @@
         </span>
         <span>
           <i class="iconfont reco-copyright"></i>
-          <a href="http://www.beian.miit.gov.cn">粤ICP备17074488号</a>
+          <a href="https://beian.miit.gov.cn">粤ICP备17074488号</a>
           <!-- <a>
             <span v-if="$themeConfig.startYear">{{ $themeConfig.startYear }} -</span>
             {{ year }}

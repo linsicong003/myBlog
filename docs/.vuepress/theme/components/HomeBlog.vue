@@ -73,7 +73,7 @@
         </span>
         <span>
           <i class="iconfont reco-copyright copyright"></i>
-          <a href="http://www.beian.miit.gov.cn">粤ICP备17074488号</a>
+          <a href="https://beian.miit.gov.cn">粤ICP备17074488号</a>
         </span>
         <span>
           <AccessNumber idVal="/"></AccessNumber>
